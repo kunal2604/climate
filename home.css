@@ -32,7 +32,7 @@ span {
 }
 
 #social-link>li,
-#help>li,
+#help > li,
 address {
     font-size: 4vw;
 }
@@ -258,13 +258,12 @@ blockquote {
 }
 
 #did-you-know-article > p {
-    position: sticky;
     background-color: #354463;
     color: white;
     padding: 5% 5%;
     position: absolute;
-    /* top: 0%; */
-    top:1%;
+    top: 0%;
+
 }
 
 /*
