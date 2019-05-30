@@ -27,22 +27,15 @@ button {
 #social-link,
 #help,
 span {
-
     list-style: none;
-
     font-size: 3.1vw;
-
 }
 
-#social-link>li,
-#help>li,
+#social-link > li,
+#help > li,
 address {
     font-size: 4vw;
 }
-
-
-
-/* header */
 
 #head,
 #foot {
@@ -54,90 +47,57 @@ address {
 }
 
 #title-head {
-
     grid-area: 1/1;
-
     font-size: 3.7vw;
-
     line-height: 1;
-
     display: flex;
-
     flex-direction: column;
-
     justify-content: center;
-
-
-
 }
 
 #menu {
-
     line-height: 1.5;
-
     list-style: none;
     grid-area: 1/2;
     display: flex;
     flex-direction: column;
-
 }
 
 #donate {
-
     grid-area: 2/1/3/span 2;
-
     font-size: 5vw;
-
     font-weight: bold;
-
     color: #354463;
-
 }
 
 /*footer*/
 
-#foot>aside {
-
+#foot > aside {
     grid-area: 3/2;
-
     text-align: right;
-
     font-size: 7vw;
-
     font-family: 'flood std';
-
 }
 
 #social-link {
-
     grid-area: 2/1;
-
 }
 
 #help {
-
     grid-area: 2/2;
-
 }
 
 address {
-
     grid-area: 1/2;
-
 }
 
 #title {
-
     grid-area: 1/1/1/2;
-
 }
 
-#title>h1 {
-
+#title > h1 {
     font-size: 5.5vw;
-
     line-height: 1;
-
 }
 
 /********************header-footer-end***********************/
@@ -146,224 +106,133 @@ address {
 
 .hero-image-first {
     background-image: url(assets/home/annie-spratt-mobile.jpeg);
-
     height: 165vw;
-
     background-color: #cccccc;
-
     background-repeat: no-repeat;
-
     background-size: 370% auto;
-
     background-position-x: 44%;
-
     background-position-y: 100%;
-
     position: relative;
-
     padding: 10% 8%;
-
 }
 
 #hero-quote-first {
-
     color: white;
-
 }
 
 .hero-content-container {
-
     top: 40%;
-
     height: 35%;
-
     width: 90%;
-
     background-color: white;
-
     position: relative;
-
     padding: 5% 5%;
-
     display: flex;
-
     flex-direction: column;
-
     align-items: center;
-
     text-align: center;
-
     justify-content: space-evenly;
-
 }
 
 #hero-content {
-
     margin-top: -12%;
-
     font-size: 1.6em;
-
     font-weight: bold;
-
 }
 
 #hero-link {
-
     font-size: 1.2em;
-
 }
 
 #hero-title-first {
-
     background-color: #354463;
-
     color: white;
-
     padding: 5% 16%;
-
     position: relative;
-
     top: -25%;
-
 }
 
 /****************regulation-section*******************/
 
 #regulations {
-
     background-color: #C1F7D5;
-
     display: flex;
-
     flex-flow: row wrap;
-
     justify-content: center;
-
     align-content: space-between;
-
     position: relative;
-
 }
 
 #regulations-actions {
-
     margin-top: -7%;
-
     width: 40%;
-
     background-color: #354463;
-
     color: white;
-
     text-align: center;
-
     padding: 4%;
-
     position: sticky;
-
 }
 
 #actions {
-
     display: flex;
-
     flex-flow: row wrap;
-
     margin: 15% 9% auto 9%;
-
     justify-content: space-between;
-
 }
 
 .regulation-action {
-
     font-size: 1em;
-
     margin-bottom: 10%;
-
     width: 45%;
-
 }
 
 /*****************mission-section***************************/
 
 #mission-section {
-
     background-color: #354463;
-
     display: flex;
-
     align-items: center;
-
     flex-flow: column;
-
     padding: 10%;
-
     height: auto;
-
     position: relative;
-
 }
 
-#mission-section>p,
+#mission-section > p,
 .event-head {
-
     background-color: white;
-
     text-align: center;
-
     padding: 4% 15%;
-
     color: #354463;
-
 }
 
 blockquote {
-
     color: white;
-
     text-align: center;
-
     font-size: 6.2vw;
-
     padding: 10% 5%;
-
 }
 
 .mission {
-
     background-color: white;
-
     display: flex;
-
     padding: 15% 10%;
-
     margin-top: 20%;
-
     flex-flow: column;
-
     line-height: 1.2;
-
     text-align: center;
-
 }
 
-.mission>img {
-
+.mission > img {
     width: 100%;
-
     margin-top: -30%;
-
 }
 
-.mission>h1,
-.mission>p,
-.mission>button {
-
+.mission > h1,
+.mission > p,
+.mission > button {
     margin-top: 10%;
-
     font-size: 1em;
-
 }
 
 /***************************climate-data-acknowledge*****************************/
@@ -377,96 +246,59 @@ blockquote {
     background-position-y: 100%;
 }
 
-#did-you-know-section>h1 {
-
+#did-you-know-section > h1 {
     font-size: 2.5em;
-
     text-transform: uppercase;
-
     color: white;
-
 }
 
-#did-you-know-section>button {
-
+#did-you-know-section > button {
     padding: 1% 3%;
-
     font-size: 1em;
-
     font-weight: bold;
-
     margin: 12% auto;
-
 }
 
 #acknowledges-datas {
-
     display: flex;
-
     flex-direction: column;
-
     align-items: center;
-
     position: relative;
-
 }
 
-#acknowledges-datas>p {
-
+#acknowledges-datas > p {
     position: sticky;
-
     background-color: #354463;
-
     color: white;
-
     padding: 5% 5%;
-
     position: absolute;
-
 }
 
 .acknowledge-data {
-
     padding: 12% 10%;
-
     background-color: white;
-
     margin-top: 10%;
-
     display: grid;
-
     grid-column-gap: 5%;
-
     grid-row-gap: 20%;
-
 }
 
-.acknowledge-data>h2 {
-
+.acknowledge-data > h2 {
     grid-area: 1/1/2/span 3;
-
 }
 
-.acknowledge-data>p {
-
+.acknowledge-data > p {
     grid-area: 2/1/3/span 3;
-
 }
 
 .facebook {
-
     background-color: #C1F7D5;
-
     grid-area: 1/4/2/6;
-
 }
 
 .twitter {
-
     background-color: #C1F7D5;
-
     grid-area: 2/4/3/6;
-
 }
 
 /*****************************people's-testimony**************************************/
@@ -480,49 +312,32 @@ blockquote {
     position: relative;
 }
 
-#user-stories>img {
-
+#user-stories > img {
     width: 100%;
-
 }
 
-#user-stories>p {
+#user-stories > p {
     position: sticky;
-
     background-color: #354463;
-
     color: white;
-
     padding: 4% 16%;
-
     position: absolute;
-
     top: 4%;
-
 }
 
-#user-stories>blockquote {
-
+#user-stories > blockquote {
     padding: 10%;
-
     background-color: #354463;
-
     margin: 15% auto;
-
 }
 
 #testimony {
-
     font-weight: bold;
-
     font-size: 1.1em;
-
 }
 
-#testimony>span {
-
+#testimony > span {
     display: none;
-
 }
 
 #testimonier {
@@ -531,8 +346,8 @@ blockquote {
     margin-top: 10%;
 }
 
-#user-stories>button,
-.event>button {
+#user-stories > button,
+.event > button {
     padding: 1% 15%;
     font-weight: bold;
     font-size: 1.2em;
@@ -614,6 +429,9 @@ blockquote {
 
 
 
+
+
+
 /*****media query header footer*****/
 
 @media screen and (min-width: 768px) {
@@ -621,7 +439,6 @@ blockquote {
     #social-link,
     #help,
     span {
-
         list-style: none;
         font-size: 2vw;
     }
@@ -647,103 +464,65 @@ blockquote {
     }
 
     #donate {
-
         grid-area: 1/3;
-
         line-height: 0.1;
-
         font-size: 2.4vw;
-
     }
 
-
-
     #menu>li {
-
         margin-right: 5%;
-
     }
 
     #foot {
-
         grid-row-gap: 20%;
-
         grid-column-gap: 10%;
-
     }
 
     address {
-
         grid-area: 1/2/2/3;
-
     }
 
     #social-link {
-
         grid-area: 1/3/2/4;
-
     }
 
     #help {
-
         grid-area: 2/2/3/3;
-
     }
 
-    #foot>aside {
-
+    #foot > aside {
         grid-area: 2/3;
-
         text-align: left;
-
     }
 
-    #title>h1 {
-
+    #title > h1 {
         font-size: 3.2vw;
-
     }
 
     /**********************first-section******/
 
     .hero-image-first {
-
         height: 70vw;
-
         background-size: 174% auto;
-
         background-position-x: 15%;
-
         background-position-y: 100%;
-
     }
 
     #hero-title-first {
-
         padding: 3% 10%;
-
     }
 
     .hero-content-container {
-
         top: 27%;
-
         height: 45%;
-
         padding: 5% 10%;
-
         width: 80%;
-
         align-items: flex-start;
-
         text-align: left;
-
     }
 
     #hero-content {
-
         font-size: 2.5em;
-
     }
 
     /*********************************second-section**************/
@@ -781,20 +560,15 @@ blockquote {
     .mission {
         background-color: green;
         display: grid;
-
         grid-column-gap: 10%;
-
         padding: 5% 5%;
-
     }
 
-    .mission>img {
-
+    .mission > img {
         grid-area: 1/1/2/2;
-
     }
 
-    .mission>h1 {
+    .mission > h1 {
         grid-area: 1/2/2/3;
     }
 
@@ -802,7 +576,7 @@ blockquote {
         grid-area: 2/2/3/3;
     }
 
-    .mission>button {
+    .mission > button {
         grid-area: 2/1/3/2;
     }
 
@@ -812,11 +586,11 @@ blockquote {
         display: grid;
     }
 
-    #did-you-know-section>h1 {
+    #did-you-know-section > h1 {
         grid-area: 1/1/2/2;
     }
 
-    #did-you-know-section>button {
+    #did-you-know-section > button {
         grid-area: 2/1/3/2;
     }
 
@@ -830,129 +604,113 @@ blockquote {
 @media screen and (min-width: 1024px) {
 
     hr {
-
         display: block;
-
         margin: 5% auto -10% auto;
-
     }
 
     #social-link,
     #help,
     span {
-
         list-style: none;
-
         font-size: 1.5vw;
-
     }
 
     #social-link>li,
     #help>li,
     address {
-
         font-size: 1.8vw;
-
     }
 
     a:link {
-
         text-decoration: none;
-
     }
 
     #title-head {
-
         font-size: 2vw;
-
         grid-area: 1/1/2/2;
-
     }
 
     #menu {
-
         grid-area: 1/2/2/span 2;
-
         display: flex;
-
         flex-direction: row;
-
     }
 
     #menu>li {
-
         font-size: 1.8vw;
-
         margin-right: 10%;
-
         position: relative;
-
         top: 50%;
-
     }
 
     #donate {
-
         grid-area: 1/4/2/5;
-
         line-height: 0.1;
-
         font-size: 2w;
-
     }
 
     #title {
-
         grid-area: 1/1/2/span 2;
-
     }
 
     address {
-
         grid-area: 1/3/2/4;
-
     }
 
     #title>h1 {
-
         font-size: 2.5vw;
-
     }
 
     #social-link {
-
         grid-area: 1/4/2/5;
-
     }
 
     #help {
-
         grid-area: 1/5/2/7;
-
     }
 
     #foot>aside {
-
         grid-area: 1/7/2/span 2;
-
         text-align: right;
-
         font-size: 3.5vw;
-
     }
 
     #foot {
-
         grid-column-gap: 5%;
-
         grid-row-gap: 0;
-
     }
-
     /********************header-footer-end***********************/
-
-
-
 }
 
-/*****body*******/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
