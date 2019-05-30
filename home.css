@@ -32,7 +32,7 @@ span {
 }
 
 #social-link>li,
-#help>li,
+#help > li,
 address {
     font-size: 4vw;
 }
@@ -249,19 +249,20 @@ blockquote {
     margin: 12% auto;
 }
 
-#acknowledges-datas {
+#did-you-know-article {
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
 }
 
-#acknowledges-datas>p {
-    position: sticky;
+#did-you-know-article > p {
     background-color: #354463;
     color: white;
     padding: 5% 5%;
     position: absolute;
+    top: 0%;
+
 }
 
 .acknowledge-data {
