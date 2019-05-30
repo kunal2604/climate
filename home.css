@@ -37,7 +37,7 @@ address {
     font-size: 4vw;
 }
 
-#head{
+#head {
     z-index: 2;
     padding: 8% 8% 10% 8%;
     display: grid;
@@ -94,7 +94,7 @@ address {
 
 /**********************hero-section*************************************/
 
-.the-issue {
+.the-issue-section{
     background-image: url(assets/home/annie-spratt-mobile.jpeg);
     height: 165vw;
     background-color: #cccccc;
@@ -106,11 +106,11 @@ address {
     padding: 10% 8%;
 }
 
-#italic-title{
+#stop-climate-change{
     color: white;
 }
 
-.hero-content-container {
+.the-issue-container {
     top: 40%;
     height: 35%;
     width: 90%;
@@ -124,22 +124,22 @@ address {
     justify-content: space-evenly;
 }
 
-#hero-content {
+#the-issue-topic {
     margin-top: -12%;
     font-size: 1.6em;
     font-weight: bold;
 }
 
-#hero-link {
+#the-issue-read-more{
     font-size: 1.2em;
 }
 
-#hero-title-first {
+#the-issue-header {
     background-color: #354463;
     color: white;
     padding: 5% 16%;
-    position: relative;
-    top: -25%;
+    position: absolute;
+    top: -9%;
 }
 
 /****************regulation-section*******************/
@@ -154,13 +154,14 @@ address {
 }
 
 #regulations-actions {
-    margin-top: -7%;
+    /* margin-top: -7%; */
     width: 40%;
     background-color: #354463;
     color: white;
     text-align: center;
     padding: 4%;
-    position: sticky;
+    position: absolute;
+    top:-10%;
 }
 
 #actions {
@@ -249,22 +250,31 @@ blockquote {
     margin: 12% auto;
 }
 
-#acknowledges-datas {
+#did-you-know-article {
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
 }
 
-#acknowledges-datas>p {
+#did-you-know-article > p {
     position: sticky;
     background-color: #354463;
     color: white;
     padding: 5% 5%;
     position: absolute;
+    /* top: 0%; */
+    top:1%;
 }
 
-.acknowledge-data {
+/*
+#user-stories > p {
+    top: 4%;
+}
+
+*/
+
+.did-you-know-divs {
     padding: 12% 10%;
     background-color: white;
     margin-top: 10%;
@@ -273,11 +283,11 @@ blockquote {
     grid-row-gap: 20%;
 }
 
-.acknowledge-data>h2 {
+.did-you-know-divs>h2 {
     grid-area: 1/1/2/span 3;
 }
 
-.acknowledge-data>p {
+.did-you-know-divs>p {
     grid-area: 2/1/3/span 3;
 }
 
@@ -291,7 +301,7 @@ blockquote {
     grid-area: 2/4/3/6;
 }
 
-/*****************************people's-testimony**************************************/
+/***************************** STORIES **************************************/
 
 #user-stories {
     display: flex;
@@ -302,11 +312,11 @@ blockquote {
     position: relative;
 }
 
-#user-stories>img {
+#user-stories > img {
     width: 100%;
 }
 
-#user-stories>p {
+#user-stories > p {
     position: sticky;
     background-color: #354463;
     color: white;
@@ -315,29 +325,29 @@ blockquote {
     top: 4%;
 }
 
-#user-stories>blockquote {
+#user-stories > blockquote{
     padding: 10%;
     background-color: #354463;
     margin: 15% auto;
 }
 
-#testimony {
+#user-stories-content{
     font-weight: bold;
     font-size: 1.1em;
 }
 
-#testimony>span {
+#user-stories-content > span{
     display: none;
 }
 
-#testimonier {
+#user-stories-person{
     font-weight: lighter;
     font-size: 0.5em;
     margin-top: 10%;
 }
 
-#user-stories>button,
-.event>button {
+#user-stories > button,
+.event > button {
     padding: 1% 15%;
     font-weight: bold;
     font-size: 1.2em;
@@ -416,7 +426,7 @@ blockquote {
 }
 
 /* ------------------footer----------------*/
-#foot{
+#foot {
     z-index: 2;
     padding: 8% 8% 10% 8%;
     display: grid;
@@ -424,7 +434,7 @@ blockquote {
     grid-column-gap: 30%;
 }
 
-#foot > aside {
+#foot>aside {
     background-color: red;
     grid-area: 3/2;
     text-align: right;
@@ -516,27 +526,28 @@ blockquote {
 
     /**********************first-section******/
 
-    .the-issue {
+    .the-issue-section{
         height: 70vw;
         background-size: 174% auto;
         background-position-x: 15%;
         background-position-y: 100%;
     }
 
-    #hero-title-first {
+    #the-issue-header{
         padding: 3% 10%;
     }
 
-    .hero-content-container {
+    .the-issue-container{
         top: 27%;
         height: 45%;
         padding: 5% 10%;
         width: 80%;
         align-items: flex-start;
         text-align: left;
+        
     }
 
-    #hero-content {
+    #the-issue-topic {
         font-size: 2.5em;
     }
 
@@ -609,7 +620,7 @@ blockquote {
         grid-area: 2/1/3/2;
     }
 
-    .acknowledge-data {
+    .did-you-know-divs {
         grid-area: 1/2/3/3;
     }
 
@@ -684,7 +695,7 @@ blockquote {
         grid-area: 1/5/2/7;
     }
 
-    #foot > aside {
+    #foot>aside {
         grid-area: 1/7/2/span 2;
         text-align: right;
         font-size: 3.5vw;
