@@ -143,7 +143,19 @@ header {
     top: -8%;
 }
 
-#regulations-actions {
+
+
+/**************** SECTION 2 STARTS *******************/
+
+#section-2 {
+    background-color: #C1F7D5;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 2%;
+}
+
+#take-action {
     background-color: #354463;
     color: white;
     text-align: center;
@@ -153,36 +165,19 @@ header {
     top: -7%;
 }
 
-/****************regulation-section*******************/
-
-#section-2 {
-    background-color: #C1F7D5;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-content: space-between;
-    position: relative;
-    padding: 10% 5% 10% 5%;
-}
-
-/* ORIGINAL*/
-/* #regulations-actions {  
-    width: 40%;
-    background-color: #354463;
-    color: white;
-    text-align: center;
-    padding: 4%;
-    position: absolute;
-    top:-10%;
-} */
 
 #actions {
     display: flex;
-    flex-flow: row wrap;
+    flex-wrap: wrap;
     margin: 15% 9% auto 9%;
     justify-content: space-between;
 }
-
+#actions h4{
+    font-size:3.5vw;
+}
+#actions p{
+    font-size:3vw;
+}
 .regulation-action {
     font-size: 1em;
     margin-bottom: 10%;
@@ -546,7 +541,7 @@ blockquote {
     /**********************first-section******/
 
     .section-1 {
-        height: 70vw;
+        height: 72vw;
         background-size: 174% auto;
         background-position-x: 15%;
         background-position-y: 100%;
@@ -586,10 +581,10 @@ blockquote {
 
     /*********************************second-section**************/
 
-    #regulations-actions {
-        margin-top: -2%;
-        width: 20%;
-        padding: 2%;
+    #take-action {
+        padding: 2% 5%;
+        top: -6%;
+        font-size:2.1vw;
     }
 
     .regulation-action {
@@ -756,20 +751,16 @@ blockquote {
     /* SECTION 1 STARTS  ********************************************************/
     .section-1 {
         background-image: url(assets/home/annie-spratt-135307-unsplash@3x.png);
-        /* background-repeat: no-repeat; */
-        height: 68vw; 
-         /* background-size: 100% auto;  */
-        /* background-position-x: 15%; */
-        /* background-position-y: 100%;   */
-        background-image: cover;
-        
+        height: 28vw; 
+        display:grid;
+        grid-template-columns: 1fr 1fr;
        
     }
 
     #the-issue-header {
         padding: 3% 10%;
         left: 10%;
-        top:-4%;
+        top:-15%;
         font-size: 2vw;
     }
 
@@ -784,12 +775,13 @@ blockquote {
 
     #section-1-heading{
         position: absolute;
-        top:15%;
+        top:31%;
         right: 20%;
+        font-size:4vw;
     }
     
     #the-issue-text {
-        font-size: 3.5vw;
+        font-size: 2.5vw;
         font-weight: bold;
     }
 
@@ -800,4 +792,11 @@ blockquote {
 
     /*SECTION 1 ENDS */
 
+    /* SECTION 2 STARTS */
+    #actions {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    /* SECTION 2 ENDS */
 }
