@@ -20,6 +20,7 @@ button {
     background-color: #C1F7D5;
     border-radius: 2em;
     border-style: none;
+    
 }
 
 #social-link,
@@ -189,14 +190,14 @@ header {
     background-color: #354463;
     display: flex;
     align-items: center;
-    flex-flow: column;
+    flex-direction: column;
     padding: 10%;
     height: auto;
     position: relative;
 }
 
-#section-3>p,
-.event-head {
+#section-3 p
+ {
     background-color: white;
     text-align: center;
     padding: 4% 15%;
@@ -224,11 +225,13 @@ blockquote {
     width: 100%;
     margin-top: -30%;
 }
-
+.mission button{
+    
+}
 .mission>h1,
 .mission>p {
     margin-top: 10%;
-    font-size: 1em;
+    font-size: 3vw;
 }
 
 /**********************DID YOU KNOW***********/
@@ -244,7 +247,7 @@ blockquote {
 
 #section-4>h1 {
     font-size: 2.5em;
-    text-transform: uppercase;
+    
     color: white;
 }
 
@@ -281,7 +284,7 @@ blockquote {
 .did-you-know-divs {
     padding: 12% 10%;
     background-color: white;
-    margin-top: 10%;
+    margin-top: 8%;
     display: grid;
     grid-column-gap: 5%;
     grid-row-gap: 20%;
@@ -350,7 +353,7 @@ blockquote {
     margin-top: 10%;
 }
 
-#section-5>button,
+#button,
 .event>button {
     padding: 1% 15%;
     font-weight: bold;
@@ -602,8 +605,7 @@ blockquote {
 
     blockquote {
         text-align: left;
-        padding: 10% 0%;
-        font-size: 2.5em;
+        font-size: 4vw;
     }
 
     #section-3>p {
@@ -613,7 +615,7 @@ blockquote {
     .mission {
         background-color: white;
         display: grid;
-        grid-column-gap: 10%;
+        grid-column-gap: 15%;
         padding: 5% 5%;
         text-align: left;
     }
@@ -624,7 +626,7 @@ blockquote {
 
     .mission>h1 {
         grid-area: 1/2/2/3;
-        font-size: 2em;
+        font-size: 3vw;
         margin-top: -5%;
     }
 
@@ -634,13 +636,13 @@ blockquote {
         margin-top: -5%;
     }
 
-    .mission>button {
+    .mission button {
         grid-area: 2/1/3/2;
-        width: 40%;
-        height: 40%;
+        width: 80%;
+        height: 12%;
         position: relative;
-        left: 60%;
-        top: 20%;
+        left: 95%;
+        top: 54%;
         font-weight: bold;
     }
 
@@ -818,4 +820,45 @@ blockquote {
 }
     
     /* SECTION 2 ENDS */
+
+
+    /*secrtion-3 starss*/
+#section-3 {
+    padding: 5% 8%;
+    flex-flow: row wrap;
+    justify-content: space-between;
 }
+.mission {
+    width: 20%;
+    display: flex;
+    padding: 4%;
+    margin-top: 0;
+    flex-flow: column;
+    line-height: 1.2;
+    align-items: flex-start;
+    text-align:left;
+}
+mission>p {
+    margin-top: 0;
+    font-size: 1.1em;
+    line-height: 1.5;
+    text-align:left;
+    padding:2%;
+}
+.mission>img {
+    grid-area: 1/1/2/2;
+    position: relative;
+    margin-top: -50%;
+    width: 23vw;
+}
+.mission>h1 {
+    font-size: 1em;
+}
+.mission>* {
+    margin-bottom: 10%;
+}
+.mission>button {
+    position: static;
+    width: 77%;
+}
+/*section -3 ends*/
