@@ -1,4 +1,9 @@
 /* @import url('https://fonts.googleapis.com/css?family=Open+Sans'); */
+.eighteen-font-size{
+    font-size: 4.8vw;
+}
+
+
 @font-face {
     font-family: 'flood';
     src: url(assets/font/Flood.ttf);
@@ -50,7 +55,7 @@ header {
 
 #title-head {
     grid-area: 1/1;
-    font-size: 1em;
+    /* font-size: 1em; */
     line-height: 1.2em;
     display: flex;
     flex-direction: column;
@@ -74,7 +79,7 @@ header {
 
 #donate {
     grid-area: 2/1/span 1/span 3;
-    font-size: 5vw;
+    /* font-size: 5vw; */
     font-weight: bold;
     color: #354463;
 }
@@ -95,10 +100,6 @@ header {
     grid-area: 1/1/1/2;
 }
 
-#title>h1 {
-    font-size: 5.5vw;
-    line-height: 1;
-}
 
 /********************header-footer-end***********************/
 
@@ -184,7 +185,7 @@ header {
     justify-content: space-between;
 }
 #actions h4{
-    font-size: 5vw;
+    /* font-size: 5vw; */
     margin: 0% 0% -7% 0%;
 }
 
@@ -243,7 +244,7 @@ blockquote {
 .mission>h1,
 .mission>p {
     margin-top: 10%;
-    font-size: 3vw;
+    /* font-size: 3vw; */
 }
 
 /**********************SECTION 4 STARTS ***********/
@@ -265,7 +266,7 @@ blockquote {
 
 #section-4>button {
     padding: 1% 3%;
-    font-size: 1em;
+    /* font-size: 1em; */
     font-weight: bold;
     margin: 12% auto;
 }
@@ -362,7 +363,7 @@ blockquote {
 .event>button {
     padding: 1% 15%;
     font-weight: bold;
-    font-size: 1.2em;
+    /* font-size: 1.2em; */
 }
 
 /**************************Steps for Action*********************************/
@@ -401,9 +402,9 @@ blockquote {
     padding: 4% 10%;
 }
 
-.event-space {
+/* .event-space {
     margin-bottom: 10%;
-}
+} */
 
 /****SUBSCRIBE****/
 
@@ -432,7 +433,7 @@ blockquote {
     grid-area: 2/2/3/3;
     color: #C1F7D5;
     background-color: #354463;
-    font-size: 1.2em;
+    /* font-size: 1.2em; */
     font-weight: bold;
     padding: 3% 8%;
 }
@@ -474,7 +475,13 @@ blockquote {
 
 /***********************      TABLET MEDIA QUERY         ***************************/
 
+
 @media screen and (min-width: 768px) and (max-width:1023px) {
+
+    .eighteen-font-size{
+        font-size: 2.86vw;
+    }
+    
 
     #social-link,
     #help,
@@ -498,13 +505,14 @@ blockquote {
     }
 
     #title-head {
-        font-size: 2.6vw;
+        /* font-size: 12.6vw; */
+        
         grid-area: 1/1/2/3;
     }
 
     #menu {
         padding:0% 0% 0% 0%;
-        font-size: 1.8vw;
+        font-size: 1.82vw;
         grid-area: 2/1/3/3;
         display: flex;
         flex-direction: row;
@@ -515,7 +523,7 @@ blockquote {
     #donate {
         grid-area: 1/3;
         line-height: 0.1;
-        font-size: 2.4vw;
+        /* font-size: 2.86vw; */
     }
 
     #menu>li {
@@ -544,9 +552,9 @@ blockquote {
         text-align: left;
     }
 
-    #title>h1 {
+    /* #title>h1 {
         font-size: 3.2vw;
-    }
+    } */
 
 
 
@@ -600,7 +608,7 @@ blockquote {
         padding: 2% 0% 0% 6%;
     }
     #actions h4 {
-        font-size: 3vw;
+        /* font-size: 3vw; */
         margin: 5% 0% -7% 0%;
     }
 
@@ -659,7 +667,7 @@ blockquote {
 
     .mission>h1 {
         grid-area: 1/2/2/3;
-        font-size: 3vw;
+        /* font-size: 3vw; */
         margin-top: -5%;
     }
 
@@ -728,9 +736,12 @@ blockquote {
 
 
 
-/*                  DESKTOP MEDIA QUERY */
+/*            *********************      DESKTOP MEDIA QUERY */
 @media screen and (min-width: 1024px) {
 
+    .eighteen-font-size{
+        font-size: 2.15vw;
+    }
 
     hr {
         display: block;
@@ -751,7 +762,7 @@ blockquote {
         text-decoration: none;
     }
     #title-head {
-        font-size: 2vw;
+        /* font-size: 2vw; */
         grid-area: 1/1/2/2;
     }
     #menu {
@@ -770,7 +781,7 @@ blockquote {
     #donate {
         grid-area: 1/4/2/5;
         line-height: 0.1;
-        font-size: 2w;
+        /* font-size: 2w; */
         padding:2% 2% 2% 2%;
     }
     #title {
@@ -780,7 +791,7 @@ blockquote {
         grid-area: 1/3/2/4;
     }
     #title>h1 {
-        font-size: 2.5vw;
+        /* font-size: 2.5vw; */
     }
     #social-link {
         grid-area: 1/4/2/5;
@@ -871,7 +882,7 @@ blockquote {
 }
 
 #actions h4 {
-    font-size: 2.5vw;
+    /* font-size: 2.5vw; */
 }
     
     /* SECTION 2 ENDS */
@@ -907,8 +918,9 @@ mission>p {
     width: 23vw;
 }
 .mission>h1 {
-    font-size: 1em;
-/* }
+    /* font-size: 1em; */
+}
+    /* }
 .mission>* {
     margin-bottom: 10%;
 } */
