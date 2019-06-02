@@ -47,6 +47,7 @@ header {
     grid-row-gap: 10%;
 }
 
+
 #title-head {
     grid-area: 1/1;
     font-size: 1em;
@@ -55,10 +56,14 @@ header {
     flex-direction: column;
     justify-content: center;
 }
+#title-head h3{
+    font-size: 5.86vw;
+}
+
 
 #menu {
     width:100%;
-    font-size: 0.8em;
+    font-size: 3.73vw;
     line-height: 2;
     list-style: none;
     grid-column: 3/span 1;
@@ -69,9 +74,7 @@ header {
 
 #donate {
     grid-area: 2/1/span 1/span 3;
-    /* grid-row: 2/span 1;
-    grid-column: 1/span 3; */
-    font-size: 1.3em;
+    font-size: 5vw;
     font-weight: bold;
     color: #354463;
 }
@@ -139,7 +142,7 @@ header {
 }
 
 #the-issue-read-more {
-    font-size: 4vw;
+    font-size: 3.73vw;
 }
 
 #the-issue-header {
@@ -147,7 +150,7 @@ header {
     color: white;
     padding: 4% 10%;
     position: absolute;
-    font-size: 4vw;
+    font-size: 3.73vw;
     top: -13%;
 }
 
@@ -169,7 +172,7 @@ header {
     text-align: center;
     padding: 3.5% 10%;
     position: absolute;
-    font-size: 4vw;
+    font-size: 3.73vw;
     top: -20%;
 }
 
@@ -184,11 +187,13 @@ header {
     font-size: 5vw;
     margin: 0% 0% -7% 0%;
 }
-#actions p{
-    font-size:3vw;
-}
+
 .regulation-action {    
     width: 48%;
+}
+
+.regulation-action p{
+    font-size: 3.73vw;
 }
 
 /*****************SECTION 3***************************/
