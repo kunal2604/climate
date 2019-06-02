@@ -314,7 +314,7 @@ header {
 }
 
 .did-you-know-divs {
-    padding: 10% 10%;
+    padding: 7% 7% 7% 7%;
     background-color: white;
     margin-top: 8%;
     display: grid;
@@ -361,9 +361,11 @@ header {
     top: -1%;
     left: 18%;
 }
+
 #section-5>img {
     width: 100%;
 }
+
 
 #section-5-heading{
     background-color: #354463;
@@ -372,25 +374,26 @@ header {
     top: 1%;
 }
 
-#section-5>blockquote {
-    padding: 10%;
+.user-story-div{
     background-color: #354463;
-    margin: 15% auto;
+    color:white;
+    padding: 5% 5% 5% 5%;
 }
 
 #user-stories-content {
+    color:white;
+    text-align: center;
     font-weight: bold;
-    font-size: 1.1em;
+    font-size: 5.86vw;
+}
+#user-stories-person{
+    font-size:1.82vw;
+    color:white;
+    font-weight: lighter;
 }
 
 #user-stories-content>span {
     display: none;
-}
-
-#user-stories-person {
-    font-weight: lighter;
-    font-size: 0.5em;
-    margin-top: 10%;
 }
 
 #button,
@@ -760,9 +763,14 @@ header {
     
 
     /* SECTION 5 STARTS*/
-    blockquote {
+ 
+    #user-stories-content {
         text-align: left;
-        font-size: 4vw;
+        font-size: 2.86vw;
+    }
+    #user-stories-content > span {
+        font-size: 2.86vw;
+        display: inline;
     }
 }
 
@@ -1021,4 +1029,15 @@ header {
         font-size:1.95vw;
     }
 
+
+
+    /************************ SECTION 5 STARTS ********************************/
+    #user-stories-content {
+        text-align: left;
+        font-size: 2.73vw;
+    }
+    #user-stories-content > span {
+        font-size: 2.73vw;
+        display: inline;
+    }
 }
