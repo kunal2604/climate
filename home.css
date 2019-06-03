@@ -812,16 +812,17 @@ header {
     #section-4 {
         display: grid;
         background-image: url(assets/home/did-you-know-background.png);
-        background-size: 150%;
+
+        background-size: 142%;
         background-position-x: 0%;
-        background-position-y: 0%;
+        background-position-y: 30%;
     }
 
     #take-action-button {
         position: absolute;
-        height: 18%;
-        width: 55%;
-        top: 120%;
+        height: 12%;
+        width: 51%;
+        top: 91%;
     }
 
     #section-4-heading {
@@ -843,6 +844,8 @@ header {
 
     .did-you-know-h2 {
         font-size: 4.68vw;
+        margin-bottom: 0%;
+        margin-top: 5%;
     }
 
     #did-you-know-article {
@@ -853,6 +856,8 @@ header {
 
     .did-you-know-content {
         font-size: 2.08vw;
+        margin-top: -5%;
+        margin-bottom: 1%;
     }
 
     .optional {
@@ -1319,21 +1324,21 @@ header {
         background-position-x: 69%;
         background-position-y: 0%;
         padding: 5% 10% 5% 10%;
-        
     }
 
     #take-action-button {
         left: 7%;
         height: 6%;
         width: 40%;
-        top: 35%;
+        top: 41%;
     }
 
     .did-you-know-divs {
-        padding: 3%;
+        padding: 1% 7% 1% 7%;
         width: 100%;
         margin-top: 3%;
     }
+
 
     #did-you-know-article {
         position: relative;
@@ -1349,11 +1354,13 @@ header {
     .did-you-know-h2 {
         font-size: 4.29vw;
         margin-bottom: 0%;
+        margin-top: 7%;
     }
 
     .did-you-know-content {
         font-size: 1.95vw;
-        padding: 0% 0% 0% 2%;
+        padding: 0% 0% 0% 2%;    
+        margin: 0% 0% 2% 0%;
     }
 
     .optional {
@@ -1456,7 +1463,7 @@ header {
     #event-heading {
         padding: 1% 3% 1% 3%;
         width: 10%;
-        top: 5%;
+        top: 0%;
         left: 55%;
     }
 
@@ -1472,7 +1479,7 @@ header {
 
 
     #subscribe {
-        padding: 2% 8% 6% 5%;
+        padding: 2% 8% 3% 5%;
     }
 
     #subscribe>p {
@@ -1511,7 +1518,7 @@ header {
         flex-direction: row;
         justify-content: space-between;
         align-items: baseline;
-        padding: 6% 8% 6% 8%;
+        padding: 4% 8% 4% 8%;
     }
 
     #quotation {
