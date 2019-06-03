@@ -1,213 +1,270 @@
-.donation-section{
-    background-image: url("assets/donation/annie-spratt-427340-unsplash.png");
-    background-image: cover;
-    background-repeat:no-repeat;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 4vw;
-    grid-column-gap: 4vw;
-}
-header h1{
-text-align: center;
-font-family: helvetica;
-color: #354463;
-}
-.container{
-    grid-row: 1;
-    grid-column: 1;
-  }
-.container{
-    background: #354463;
-    width: auto;
-   
+@font-face {
+  font-family: 'flood';
+  src: url(assets/font/Flood.ttf);
+  font-stretch: condensed;
 }
 
-.form-text{
-    position: relative;
-    left: 1vw;
+.main-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-image: url("assets/donation/annie-spratt-427340-unsplash.png");
+  background-image: cover;
+  padding: 4vw;
+  grid-column-gap: 10vw;
 }
-.container input{
-    width: 95%;
-    border: none;
-    border-bottom: 0.2em solid #C1F7D5;
-    background: #354463;
-   }
-.form-element{
-    padding: 1em;
-    position: relative;
+
+header h1 {
+  font-size: 2.73vw;
+  text-align: center;
+  font-family: helvetica;
+  color: #354463;
 }
-.form-element label{
-    position: absolute;
-    color: white;
-    font-size: 1.2vw;
-    top: 33%;
-    left: 7%;
-  } 
-  .state{
-    background: #354463;
-    color: grey;
-     border: none;
-    border-bottom: 0.1em solid #C1F7D5;
-    width: 87%;
-  }
 
-.name{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-  .address{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+.container {
+  grid-row: 1;
+  grid-column: 1;
+  background: #354463;
+  width: auto;
 }
-.card-details{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-  .payment-information{
-color: white;
-  }
-  .click-on-text{
-      color: white;
-  }
 
-.payment-confirmation{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 1em;
-  }
-  .container button{
-    background: #C1F7D5;
-    color: #354463;
-    border: solid #C1F7D5;
-    border-radius: 1.5em;
-    font-size: 2vw;
-    grid-area: 1/2;
-   }
-   .go-back{
-    font-size: 1vw;
-    color: #C1F7D5;
-  }
-  .user-info{
-    position: relative;
-    top: 1%;
-    left: 5%;
+.form-text {
+  font-size:2.73vw;
+  position: relative;
 
-    color: white;
-  }
-  
-  .give-hope{
-    font-size: 6vw;
-    align-self: center;
-    justify-self: center;
-    font-family: Flood Std;
-    color: white;
- }
+}
 
-footer{
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
-    padding: 3%;
-    color: #354463;
-    grid-column-gap: 5%;
-    padding-left: 7vw;
-  }
-  .footer-title h2{
-    font-size: 2vw;
- 
-  }
-  
-  .footer-caption{
-    font-size: 2vw;
-  }
-  
-  .footer-nav h3{
-    font-size:1.2vw;
-  }
-  
-  .footer-nav p{
-    font-size:1vw;
-  }
-  .footer-caption{
-      font-size: 1.4vw;
-      font-family: flood std;
-  }
-    
-  .container input:focus~label,
-.container input:valid~label{
+.container input {
+  width: 95%;
+  border: none;
+  border-bottom: 0.2em solid #C1F7D5;
+  background: #354463;
+}
+
+.form-element {
+  padding: 1em;
+  position: relative;
+}
+
+.form-element label {
+  position: absolute;
+  color: white;
+  font-size: 1.36vw;
+  top: 33%;
+}
+
+
+
+.state {
+  background: #354463;
+  color: grey;
+  border: none;
+  border-bottom: 0.1em solid #C1F7D5;
+  width: 87%;
+}
+
+.name {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.address {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.payment-information {
+  color: white;
+}
+
+.click-on-text {
+  color: white;
+}
+
+.payment-confirmation {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1em;
+}
+
+.container button {
+  background: #C1F7D5;
+  color: #354463;
+  border: solid #C1F7D5;
+  border-radius: 1.5em;
+  font-size: 2vw;
+  grid-area: 1/2;
+}
+
+.go-back {
+  font-size: 1vw;
+  color: #C1F7D5;
+}
+
+.user-info {
+  position: relative;
+  top: 1%;
+  left: 5%;
+  color: white;
+}
+
+.the-quote-element {
+  font-size: 7.03vw;
+  align-self: center;
+  justify-self: center;
+  font-family: Flood Std;
+  color: white;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
+  padding: 3%;
+  color: #354463;
+  grid-column-gap: 5%;
+  padding-left: 7vw;
+}
+
+.footer-title h2 {
+  font-size: 2vw;
+
+}
+
+.footer-caption {
+  font-size: 2vw;
+}
+
+.footer-nav h3 {
+  font-size: 1.2vw;
+}
+
+.footer-nav p {
+  font-size: 1vw;
+}
+
+.footer-caption {
+  font-size: 1.4vw;
+  font-family: flood std;
+}
+
+.container input:focus~label,
+.container input:valid~label {
   top: -1em;
-  
   transition: 0.5s;
 }
 
-  @media (max-width: 720px){
-    footer{
-        display: grid;
-        grid-template-rows: 2fr 2fr;
-        grid-template-columns: 2fr 2fr 2fr ;
-    }
-    .footer-title h2{
-        font-size: 2.4vw;
-     
-      }
-
-    .footer-caption{
-        grid-row: 2;
-        grid-column: 3;
-        font-size: 2vw;
-    }
-    .learn {
-        grid-row: 2;
-        grid-column: 2;
-
-    }
-    .learn h3 {
-        font-size: 2vw;
-    }
-    .follow h3{
-        font-size: 2vw;
-    }
-    .contact h3{
-        font-size: 2vw;
-    }
-   .footer-nav p{
-       font-size: 2vw;
-   }
-}
-@media (max-width: 480px){
-   
-    .donation-section{
-        grid-template-rows: 13% 85%;
-        grid-template-columns: 1fr;
-    }
-    .container{
-     height: 101%;
-        grid-row: 2;
-
-
-    }
-footer{
-grid-template-rows: 2fr 2fr 2fr;
-grid-template-columns: 2fr 2fr;
-}
-.footer-caption{
-    grid-row: 3;
-    grid-column: 2;
-}
-.learn h3 {
-    font-size: 2.5vw;
-}
-.follow h3{
-    font-size: 2.5vw;
-}
-.contact h3{
-    font-size: 2.5vw;
-}
-.footer-nav p{
-   font-size: 2.5vw;
-}
-.footer-title h2{
-    font-size: 4vw;
- 
+@media (max-width: 720px) {
+  header h1 {
+    font-size: 2.86vw;
   }
 
+  .the-quote-element {
+    font-size: 5.73vw;
+  }
+
+
+  .form-text {
+    font-size:3.65vw;
+  }
+
+  .form-element label {
+    font-size: 1.82vw;
+  }
+  footer {
+    display: grid;
+    grid-template-rows: 2fr 2fr;
+    grid-template-columns: 2fr 2fr 2fr;
+  }
+
+  .footer-title h2 {
+    font-size: 2.4vw;
+
+  }
+
+  .footer-caption {
+    grid-row: 2;
+    grid-column: 3;
+    font-size: 2vw;
+  }
+
+  .learn {
+    grid-row: 2;
+    grid-column: 2;
+
+  }
+
+  .learn h3 {
+    font-size: 2vw;
+  }
+
+  .follow h3 {
+    font-size: 2vw;
+  }
+
+  .contact h3 {
+    font-size: 2vw;
+  }
+
+  .footer-nav p {
+    font-size: 2vw;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .main-section {
+    grid-template-rows: 15% 85%;
+    /* grid-template-rows: 50% 50%; */
+    grid-template-columns: 1fr;
+  }
+
+  .container {
+    height: 101%;
+    grid-row: 2;
+  }
+
+  header h1 {
+    font-size: 4.8vw;
+  }
+
+  .the-quote-element {
+    font-size: 8.53vw;
+  }
+
+  .form-text {
+    font-size:5.86vw;
+  }
+
+  .form-element label {
+    font-size: 1.36vw;
+  }
+  footer {
+    grid-template-rows: 2fr 2fr 2fr;
+    grid-template-columns: 2fr 2fr;
+  }
+  .footer-caption {
+    grid-row: 3;
+    grid-column: 2;
+  }
+  .learn h3 {
+    font-size: 2.5vw;
+  }
+  .follow h3 {
+    font-size: 2.5vw;
+  }
+  .contact h3 {
+    font-size: 2.5vw;
+  }
+  .footer-nav p {
+    font-size: 2.5vw;
+  }
+  .footer-title h2 {
+    font-size: 4vw;
+
+  }
 }

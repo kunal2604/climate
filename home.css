@@ -4,6 +4,7 @@
 
 @font-face {
     font-family: 'flood';
+    line-height: 1; 
     src: url(assets/font/Flood.ttf);
     font-stretch: condensed;
 }
@@ -55,7 +56,7 @@ header {
     grid-row-gap: 10%;
 }
 
-#title-head {
+.title-head {
     font-size: 4.8vw;
     grid-area: 1/1;
     line-height: 6vw;
@@ -79,6 +80,7 @@ header {
 }
 
 #button-donate {
+    height: 100%;
     grid-area: 2/1/span 1/span 3;
     font-size: 4.8vw;
     font-weight: bold;
@@ -90,25 +92,8 @@ header {
     /* font-size: 4.26vw;
     font-weight: bold; */
     line-height: 2;
-    
-}
 
-#social-link {
-    grid-area: 2/1;
 }
-
-#help {
-    grid-area: 2/2;
-}
-
-#contact-us {
-    grid-area: 1/2;
-}
-
-#title {
-    grid-area: 1/1/1/2;
-}
-
 
 /********************header-footer-end***********************/
 
@@ -130,7 +115,13 @@ header {
     line-height: 1;
 }
 
+.flood-style-2{
 
+    font-family: 'flood';
+    font-size: 11.73vw;
+    color: white;
+    line-height: 1;
+}
 .section-1-container {
 
     background-color: white;
@@ -223,25 +214,25 @@ header {
     position: relative;
 }
 
-#section-3 > p {
+#section-3>p {
     background-color: white;
     text-align: center;
     padding: 1% 5%;
     color: #354463;
-    top:1%;
+    top: 1%;
 }
 
-#section-3 > blockquote {
-    width:95%;
+#section-3>blockquote {
+    width: 95%;
     color: white;
     text-align: center;
     font-size: 5.86vw;
     padding: 10% 5%;
-    margin:0%;
+    margin: 0%;
 }
 
 .mission {
-    position:relative;
+    position: relative;
     background-color: white;
     display: flex;
     padding: 15% 10%;
@@ -251,25 +242,25 @@ header {
     text-align: center;
 }
 
-.mission > img {
+.mission>img {
     width: 100%;
     margin-top: -30%;
 }
 
-.mission > h1 {
+.mission>h1 {
     margin-top: 10%;
     font-size: 4.8vw;
 }
 
-.mission > p {
+.mission>p {
     margin-top: 0%;
     font-size: 3.73vw;
 }
 
-#mission-button{
-    position:absolute;
+#mission-button {
+    position: absolute;
     left: 25%;
-    bottom:5%;
+    bottom: 5%;
 }
 
 .button-type1 {
@@ -291,24 +282,24 @@ header {
     background-size: 550% auto;
     background-position-x: 46%;
 }
-.section-4-decorator{
+
+.section-4-decorator {
     text-align: left;
     position: relative;
 }
-#section-4-button{
+
+#section-4-button {
     position: absolute;
     width: auto;
 }
 
-#section-4-heading{
-
-}
+#section-4-heading {}
 
 #did-you-know-heading {
     background-color: #354463;
     color: white;
     top: -1%;
-    left:20%;
+    left: 20%;
 }
 
 #did-you-know-article {
@@ -333,19 +324,20 @@ header {
     margin-top: 8%;
     display: grid;
     grid-column-gap: 10%;
-    /* grid-row-gap: 20%; */
+    grid-row-gap: 0%;
 }
 
-.did-you-know-divs > h2 {
-    font-size:5.86vw;
+.did-you-know-divs>h2 {
+    font-size: 5.86vw;
     grid-area: 1/1/2/span 3;
 }
 
-.did-you-know-divs > p {
+.did-you-know-divs>p {
     grid-area: 2/1/3/span 3;
 }
-.did-you-know-content{
-    font-size:3.73vw;
+
+.did-you-know-content {
+    font-size: 3.73vw;
 }
 
 .facebook {
@@ -368,44 +360,52 @@ header {
     padding: 12% 5%;
     position: relative;
 }
-#section-5-heading{
+
+#section-5-heading {
     background-color: #354463;
     color: white;
     top: 1%;
-    left: 52%;
+    left: 30%;
 }
 
-#section-5>img {
-    /* width: 100%; */
+.lady-baby {
+    width: 100%;
 }
 
-.section-5-image{
+.section-5-image {
     /* margin: 5%; */
 }
 
 
-.section-5-heading{
+.section-5-heading {
     background-color: white;
     color: #354463;
     padding: 4% 16%;
     top: -5%;
 }
 
-.user-story-div{
+#story-read-more {
+    position: absolute;
+    top: 97%;
+}
+
+
+.user-story-div {
     background-color: #354463;
-    color:white;
+    color: white;
     padding: 5% 5% 5% 5%;
 }
 
 #user-stories-content {
-    color:white;
+    color: white;
     text-align: center;
     font-weight: bold;
     font-size: 5.86vw;
 }
+
 #user-stories-person {
-    font-size:2.93vw;
-    color:white;
+    font-size: 2.93vw;
+    color: white;
     font-weight: lighter;
 }
 
@@ -424,10 +424,10 @@ header {
 /**************************Things to do*********************************/
 
 #things-to-do {
-    padding: 10%;
     background-color: #354463;
     text-align: center;
     color: white;
+    padding-bottom: 8%;
 }
 
 #things-to-do>p {
@@ -449,10 +449,11 @@ header {
 }
 
 .event-space {
-    font-size:5.86vw;
+    font-size: 5.86vw;
 }
-.event-space-description{
-    font-size:3.73vw;   
+
+.event-space-description {
+    font-size: 3.73vw;
 }
 
 /****SUBSCRIBE****/
@@ -465,51 +466,65 @@ header {
     grid-column-gap: 5%;
 }
 
-#subscribe > p {
+#subscribe>p {
     font-size: 5.86vw;
-    width:100%;
+    width: 100%;
     grid-area: 1/1/2/3;
-    margin-bottom:0%;
+    margin-bottom: 0%;
 }
 
-#subscribe > input {
-    font-size:3.73vw;
+#subscribe>input {
+    font-size: 3.73vw;
     grid-area: 2/1/3/2;
     border: none;
     border-radius: 2em;
     text-align: center;
 }
 
-#button-subscribe{
-    width:100%;
+#button-subscribe {
+    width: 35%;
+    grid-area: 2/2/3/3;
+    width: 100%;
     padding: 3% 8%;
     color: #C1F7D5;
+    border-radius: 2em;
+    border-style: none;
     background-color: #354463;
 }
 
+
 /* ------------------footer----------------*/
 #foot {
-    z-index: 2;
     padding: 8% 8% 10% 8%;
     display: grid;
-    grid-row-gap: 15%;
-    grid-column-gap: 30%;
+    grid-row-gap: 5%;
+    grid-column-gap:15%;
 }
 
-#foot>aside {
-    grid-area: 3/2;
+#quotation{
+    grid-area: 3/2/4/3;
     text-align: right;
     font-size: 7vw;
-    font-family: 'flood std';
+    line-height: 1;
+    font-family: 'flood';
+}
+#social-link {
+    grid-area: 2/1/3/2;
+    padding: 0%;
 }
 
+#help {
+    grid-area: 2/2/3/3;
+    padding: 0%;
+}
+    
+#contact-us {
+    grid-area: 1/2/2/3;
+}
 
-
-
-
-
-
-
+#title2 {
+    grid-area: 1/1/2/2;
+}
 
 
 /*------------------------------------------------MOBILE ENDS-------------------------------*/
@@ -526,6 +541,11 @@ header {
 
 
 @media screen and (min-width: 768px) and (max-width:1023px) {
+
+    .lady-baby {
+        width: 70%;
+    }
+
 
     .eighteen-font-size {
         font-size: 2.86vw;
@@ -565,69 +585,41 @@ header {
         grid-column-gap: 0;
     }
 
-    #title-head {
-        /* font-size: 12.6vw; */
-
-        grid-area: 1/1/2/3;
+    .title-head {
+        grid-area: 1/1/2/2;
     }
 
-    #title-head h3 {
+    .title-head h3 {
         font-size: 2.86vw;
         line-height: 3vw;
     }
 
     #menu {
-        width:70%;
+        width: 70%;
         padding: 0% 0% 0% 0%;
         font-size: 1.82vw;
-        grid-area: 1/2/1/3;
+        grid-area: 2/1/3/3;
         display: flex;
         flex-direction: row;
         /* align-content: space-around; */
         justify-content: space-between;
     }
-
     #menu>li {
         font-size: 2.08vw;
         margin-right: 5%;
     }
-
     #button-donate {
-        width:70%;
+        height: 83%;
+        width: 70%;
         grid-area: 1/3;
         line-height: 0.1;
         font-size: 2.34vw;
+        margin-top: 8%;
     }
-
-    #foot {
-        grid-row-gap: 20%;
-        grid-column-gap: 10%;
-    }
-
-    #contact-us {
-        grid-area: 1/2/2/3;
-    }
-
-    #social-link {
-        grid-area: 1/3/2/4;
-    }
-
-    #help {
-        grid-area: 2/2/3/3;
-    }
-
-    #foot>aside {
-        grid-area: 2/3;
-        text-align: left;
-    }
-
-
     /**************** SECTION 1 STARTS ******/
-
     .flood-style {
         font-size: 5.73vw;
     }
-
     .section-1 {
         /* height: 72vw;          height-fix kunal2604  */
         background-size: 174% auto;
@@ -700,7 +692,7 @@ header {
         align-items: flex-start;
     }
 
-    #section-3 > p {
+    #section-3>p {
         background-color: white;
         color: #354463;
         line-height: 1.2;
@@ -734,15 +726,14 @@ header {
     .button-type1 {
         font-size: 2.34vw;
         grid-area: 2/1/3/2;
-            width: 74%;
-    height: 36%;
-        position: relative; 
-        top: 95%;
+        width: 74%;
+        height: 36%;
+        position: absolute;
         font-weight: bold;
     }
 
-    #section-3 > blockquote {
-        margin:3% 0% 0% 0%;
+    #section-3>blockquote {
+        margin: 3% 0% 0% 0%;
         font-size: 4.69vw;
         text-align: left;
         padding: 0%;
@@ -754,7 +745,7 @@ header {
         display: grid;
     }
 
-    #section-4 > h1 {
+    #section-4>h1 {
         grid-area: 1/1/2/2;
     }
 
@@ -762,89 +753,176 @@ header {
         grid-area: 2/1/3/2;
     }
 
-    .did-you-know-divs > h2 {
-        font-size:4.69vw;
+    .did-you-know-divs>h2 {
+        font-size: 4.69vw;
     }
+
     #did-you-know-article {
+        margin-top: 4%;
         grid-area: 1/2/3/3;
 
     }
-    .did-you-know-content{
-        font-size:2.08vw;
+
+    .did-you-know-content {
+        font-size: 2.08vw;
     }
-    
+
 
     /* SECTION 5 STARTS*/
- 
+
+
     #user-stories-content {
         text-align: left;
         font-size: 2.86vw;
     }
-    #user-stories-content > span {
+
+    #user-stories-content>span {
         font-size: 2.86vw;
         display: inline;
     }
 
     #user-stories-person {
-        font-size:1.82vw;
+        font-size: 1.82vw;
     }
 
     .event-space {
-        font-size:3.65vw;
+        font-size: 3.65vw;
     }
-    .event-space-description{
-        font-size:2.08vw;   
+
+    .event-space-description {
+        font-size: 2.08vw;
+    }
+
+    #section-5 {
+        margin-bottom: 75%;
+    }
+
+    .section-5-image {
+        position: absolute;
+        /* bottom: 10%; */
+        left: 0%;
+        width: 70%;
+    }
+
+    .user-story-div {
+        position: absolute;
+        left: 7%;
+        width: 70%;
+        bottom: -170%;
+        z-index: 1;
     }
 
     /****************************** Things to do   ****************************************************/
-    .event{
+    #things-to-do {
+        margin-top: -18%;
+    }
+
+    .event {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        
+
     }
 
-    .event-image{
+    .event-image {
         grid-column: 1;
     }
-    .event-image2{
+
+    .event-image2 {
         grid-column: 2;
     }
 
-    .group-items2{
-        grid-row:1;
+    .group-items2 {
+        grid-row: 1;
     }
-    .section-5-heading{
+
+    .section-5-heading {
         grid-column: 2;
     }
 
-    .section-5-heading2{
-        grid-row:1;
+    .section-5-heading2 {
+        grid-row: 1;
     }
 
     /* SUBSCRIBE  BUTTON*/
-    #subscribe > p {
+    #subscribe>p {
         font-size: 2.86vw;
-        /* width:100%;*/
+        width: 85.1%;
         grid-area: 1/1/2/2;
         /*margin-bottom:0%; */
     }
-    
-    #subscribe > input {
-        font-size:2.08vw;
+
+    #subscribe>input {
+        width: 80%;
+        font-size: 2.08vw;
         grid-area: 2/1/3/2;
-        /* border: none;
-        border-radius: 2em;*/
-        text-align: left; 
+        padding-left: 5%;
+        text-align: left;
+        height: 156%;
     }
 
-    #button-subscribe{
+    #button-subscribe {
         grid-area: 2/2/3/3;
-        height:100%;
-        width:100%;
+        height: 160%;
+        width: 150%;
     }
 
+    #story-read-more {
+        top: 285%;
+        left: 6%;
+        width: 18%;
+        height: 22%;
+    }
+
+
+    #subscribe {
+        padding: 6% 15% 10% 11%;
+        grid-row-gap: 20%;
+        grid-column-gap: 5%;
+
+    }
+
+    .flood-style-2 {
+        font-size: 5.73vw;
+    }
+
+    #foot {
+        padding: 8% 8% 10% 8%;
+        display: grid   ;
+        grid-row-gap: 5%;
+        grid-column-gap:10%;
+    }
+    
+    #quotation{
+        grid-area: 2/3/3/4;
+        text-align: right;
+        font-size: 7vw;
+        line-height: 1;
+        font-family: 'flood';
+    }
+    #social-link {
+        grid-area: 1/3/2/4;
+        padding: 0%;
+    }
+    
+    #help {
+        grid-area: 2/2/3/3;
+        padding: 0%;
+    }
+        
+    #contact-us {
+        display: flex;
+        flex-direction: column; 
+        grid-area: 1/2/2/3;
+        padding: 0%;
+    }
+    
+    #title2 {
+        grid-area: 1/1/2/2;
+    }
+    
 
 }
+
 
 /*
 ...................................................................................
@@ -899,17 +977,17 @@ header {
         text-decoration: none;
     }
 
-    #title-head {
+    .title-head {
         grid-area: 1/1/2/2;
     }
 
-    #title-head h3 {
+    .title-head h3 {
         font-size: 2.15vw;
         line-height: 3vw;
     }
 
     #menu {
-        line-height:0;
+        line-height: 0;
         grid-area: 1/2/2/span 2;
         display: flex;
         flex-direction: row;
@@ -923,40 +1001,12 @@ header {
     }
 
     #button-donate {
-        width:70%;
+        width: 70%;
         grid-area: 1/4/2/5;
         line-height: 0.1;
         font-size: 1.76vw;
         padding: 2% 2% 2% 2%;
     }
-
-    #title {
-        grid-area: 1/1/2/span 2;
-    }
-
-    #contact-us {
-        grid-area: 1/3/2/4;
-    }
-
-    #social-link {
-        grid-area: 1/4/2/5;
-    }
-
-    #help {
-        grid-area: 1/5/2/7;
-    }
-
-    #foot>aside {
-        grid-area: 1/7/2/span 2;
-        text-align: right;
-        font-size: 3.5vw;
-    }
-
-    #foot {
-        grid-column-gap: 5%;
-        grid-row-gap: 0;
-    }
-
 
     /*  HEADER  */
     header {
@@ -1044,10 +1094,12 @@ header {
         flex-flow: row wrap;
         justify-content: space-between;
     }
-    #section-3 > p {
-        top:6%;
+
+    #section-3>p {
+        top: 6%;
     }
-    #section-3 > blockquote {
+
+    #section-3>blockquote {
         /* background-color:red; */
         margin: 0%;
         text-align: left;
@@ -1089,14 +1141,16 @@ header {
         font-size: 1.76vw;
         width: 80%;
     }
+
     /*section -3 ends*/
 
-    /************* SECTION - 4 *************/ 
-    .did-you-know-divs > h2 {
-        font-size:4.29vw;
+    /************* SECTION - 4 *************/
+    .did-you-know-divs>h2 {
+        font-size: 4.29vw;
     }
-    .did-you-know-content{
-        font-size:1.95vw;
+
+    .did-you-know-content {
+        font-size: 1.95vw;
     }
 
 
@@ -1106,33 +1160,52 @@ header {
         text-align: left;
         font-size: 2.73vw;
     }
-    #user-stories-content > span {
+
+    #user-stories-content>span {
         font-size: 2.73vw;
         display: inline;
     }
+
     #user-stories-person {
-        font-size:1.36vw;
+        font-size: 1.36vw;
     }
+
     .event-space {
-        font-size:4.29vw;
+        font-size: 4.29vw;
     }
-    .event-space-description{
-        font-size: 1.95vw;   
+
+    .event-space-description {
+        font-size: 1.95vw;
     }
 
     /* SUBSCRIBE  BUTTON*/
-    #subscribe > p {
+    #subscribe>p {
         font-size: 2.73vw;
         /* width:100%;
         grid-area: 1/1/2/3;
         margin-bottom:0%; */
     }
-    
-    #subscribe > input {
-        font-size:1.95vw;
+
+    #subscribe>input {
+        font-size: 1.95vw;
         grid-area: 2/1/3/2;
         /* border: none;
         border-radius: 2em;*/
-        text-align: left; 
+        text-align: left;
+    }
+
+
+    /* FOOTER*/
+    .flood-style-2 {
+        font-size: 4.29vw;
+    }
+    #foot{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    #quotation{
+        font-size: 4.29vw;
     }
 }
