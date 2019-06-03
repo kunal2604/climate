@@ -100,23 +100,24 @@ header {
 /* SECTION-1 */
 .section-1 {
     background-image: url(assets/home/annie-spratt-mobile.jpeg);
-    /* height: 165vw;    height-fix kunal2604 */
-    background-size: 380% auto;
-    background-position-x: 50%;
-    background-position-y: 100%;
+    background-size: 248% auto;
+    background-position-x: 40%;
+    background-position-y: 94%;
     position: relative;
-    padding: 10% 8%;
+    padding: 2% 0% 14% 0%;
 }
 
 .flood-style {
     font-family: 'flood';
+    margin-top: 1%;
+    margin-left: 8%;
+    margin-bottom: 35%;
     font-size: 11.73vw;
     color: white;
     line-height: 1;
 }
 
 .flood-style-2 {
-
     font-family: 'flood';
     font-size: 11.73vw;
     color: white;
@@ -124,13 +125,12 @@ header {
 }
 
 .section-1-container {
-
+    width: 80%;
     background-color: white;
     position: relative;
-    /* top: 20%; */
-    bottom: -12%;
     height: 45%;
     padding: 2% 3% 2% 3%;
+    margin: 0% 8% 0% 8%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -141,6 +141,7 @@ header {
 #the-issue-text {
     font-size: 5.86vw;
     font-weight: bold;
+    margin: 8% 5% 8% 5%;
 }
 
 #the-issue-read-more {
@@ -148,8 +149,10 @@ header {
 }
 
 .small-heading {
+    text-align:center;
+    width:35vw;
     font-size: 3.73vw;
-    padding: 3% 10%;
+    padding: 3% 2%;
     position: absolute;
 }
 
@@ -175,7 +178,7 @@ header {
     background-color: #354463;
     color: white;
     text-align: center;
-    top: -17%;
+    top: -16%;
 }
 
 
@@ -236,7 +239,7 @@ header {
     position: relative;
     background-color: white;
     display: flex;
-    padding: 15% 10%;
+    padding: 12% 10% 18% 10%;
     margin-top: 20%;
     flex-flow: column;
     line-height: 1.2;
@@ -265,6 +268,7 @@ header {
 }
 
 .button-type1 {
+    height:10%;
     width: 50%;
     font-size: 4.26vw;
     font-weight: bold;
@@ -291,7 +295,10 @@ header {
 
 #section-4-button {
     position: absolute;
-    width: auto;
+    height:20%;
+    /* width:60%; */
+    width:auto;
+    top:120%;
 }
 
 #section-4-heading {}
@@ -366,20 +373,20 @@ header {
     position: relative;
 }
 
+.section-5-stories{
+    position:absolute;
+    top:0%;
+}
+
 #section-5-heading {
     background-color: #354463;
     color: white;
-    top: 1%;
-    left: 30%;
 }
 
 .lady-baby {
     width: 100%;
 }
 
-.section-5-image {
-    /* margin: 5%; */
-}
 
 
 .section-5-heading {
@@ -393,7 +400,6 @@ header {
     position: absolute;
     top: 97%;
 }
-
 
 .user-story-div {
     background-color: #354463;
@@ -418,7 +424,9 @@ header {
     display: none;
 }
 
-
+.section-5-image{
+    position:relative;
+}
 
 #button,
 .event>button {
@@ -638,7 +646,9 @@ header {
     }
 
     .small-heading {
+        width: 5%;
         font-size: 1.82vw;
+        height: 10%;
     }
 
     #the-issue-header {
@@ -658,7 +668,7 @@ header {
     }
 
     #the-issue-text {
-        font-size: 2.86vw;
+        font-size: 4.68vw;
         font-weight: bold;
     }
 
@@ -810,12 +820,12 @@ header {
         margin-bottom: 75%;
     }
 
-    .section-5-image {
+    /* .section-5-image {
         position: absolute;
-        /* bottom: 10%; */
+        bottom: 10%;
         left: 0%;
         width: 70%;
-    }
+    } */
 
     .user-story-div {
         position: absolute;
@@ -1005,6 +1015,11 @@ header {
         grid-area: 1/2/2/span 2;
         display: flex;
         flex-direction: row;
+
+        position: absolute;
+        left: 25%;
+        top: 7%;
+
     }
 
     #menu>li {
@@ -1015,8 +1030,10 @@ header {
     }
 
     #button-donate {
-        width: 70%;
-        height:76%;
+        position: absolute;
+        width: 16%;
+        height: 7%;
+        right: 10%;
         grid-area: 1/4/2/5;
         line-height: 0.1;
         font-size: 1.76vw;
