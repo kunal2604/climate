@@ -1,186 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="donation.css">
+    <title>donate-today</title>
+</head>
 
 <body>
+    <header>
+        <h1>The Green <br />Tress Initiative</h1>
+    </header>
 
-<link type="text/css" href="style1.css" rel="stylesheet">
-
-
-<header class="first-section">
-    <p class="the-green-initiative">The Green Initiative </p>
-
-
-</header>   
-   
-<section class="donation-front">
+    <section class="donation-section">
         <div class="hope-statement">
-                <p>Give HOPE to those Who need It most</p>
-        </div>
-<div class="picture">
-    <img class="donation-background-image" src="assets/donation/annie-spratt-427340-unsplash.png">
-</div>
-
-    <form class="your-information">
-            <div><p class="your-info"> Yours information </p> </div>
-        <div class="name">
-            <div class="inputwrap">
-                <label id="fname">FIRST NAME</label> <br>
-                <input type="text" required name="name" id="cname" placeholder="First name">
-               </div>
-               <div class="inputwrap">
-                <label id="lname">LAST NAME</label> <br>
-                <input type="text" required name="name" id="cname" placeholder="Last name">
-               </div>
+            <h1 class="give-hope">Give HOPE to those Who need It most</h1>
         </div>
 
-        <div class="inputwrap">
-            <label id="street-address">STREET-ADDRESS</label><br> 
-            <input type="text" required name="name" id="street-address" placeholder="street address">
-           </div>
-          <div class="postal-address" >
-                <div class="inputwrap">
-                        <label id="city">City</label> <br>
-                        <input type="text" required name="name" id="fname" placeholder="City name">
-                       </div>
+        <div class="container">
+            <h2 class="user-info form-text">Your information</h2>
 
-                    <div class="inputwrap">
-        <label id='place'>State </label><br>
-      <select  id="dropdown" name="stateslist">
-<option value="">-Select State</option>
-<option value="Andaman  Nicobar Islands">Andaman and Nicobar Islands</option>
-<option value="Andhra Pradesh">Andhra Pradesh</option>
-<option value="Arunachal Pradesh">Arunachal Pradesh</option>
-<option value="Assam">Assam</option>
-<option value="Bihar">Bihar</option>
-<option value="Chandigarh">Chandigarh</option>
-<option value="Chhattisgarh">Chhattisgarh</option>
-<option value="Dadra and Nagar Haveli">Dadra and Nagar Haveli</option>
-<option value="Daman and Diu">Daman and Diu</option>
-<option value="Delhi">Delhi</option>
-<option value="Goa">Goa</option>
-<option value="Gujarat">Gujarat</option>
-<option value="Haryana">Haryana</option>
-<option value="Himachal Pradesh">Himachal Pradesh</option>
-<option value="Jammu and Kashmir">Jammu and Kashmir</option>
-<option value="Jharkhand">Jharkhand</option>
-<option value="Karnataka">Karnataka</option>
-<option value="Kerala">Kerala</option>
-<option value="Lakshadweep">Lakshadweep</option>
-<option value="Madhya Pradesh">Madhya Pradesh</option>
-<option value="Maharashtra">Maharashtra</option>
-<option value="Manipur">Manipur</option>
-<option value="Meghalaya">Meghalaya</option>
-<option value="Mizoram">Mizoram</option>
-<option value="Nagaland">Nagaland</option>
-<option value="Orissa">Orissa</option>
-<option value="Pondicherry">Pondicherry</option>
-<option value="Punjab">Punjab</option>
-<option value="Rajasthan">Rajasthan</option>
-<option value="Sikkim">Sikkim</option>
-<option value="Tamil Nadu">Tamil Nadu</option>
-<option value="Tripura">Tripura</option>
-<option value="Uttaranchal">Uttaranchal</option>
-<option value="Uttar Pradesh">Uttar Pradesh</option>
-<option value="West Bengal">West Bengal</option>
-</select>
- </div>  
-     <div class="inputwrap">
-        <label id="zip">Zip</label> <br>
-        <input type="text" required name="name" id="zip" placeholder="zip code">
-       </div>
-</div>
-<div class="inputwrap">
-        <label id="email">Email-Address</label><br>
-
-        <input type="email" id="email" size="30" placeholder="Email-Address" required>
-
- </div>
-          <div class="payment-info">
-                Payment information
-          </div>
-     <div class="inputwrap">
-            <label id="credit">Credit Card No</label> <br>
-            <input type="text" id="credit" placeholder="Credit card number" required>
-    </div>
-    <div class="credit-pin">
-        
-                <div class="inputwrap" id="expiration-date">
-                        <label>Expiration Date</label><br>
-                        <select id="month">
-                            <option value="" >--</option>
-                            <option value="01">January</option>
-                            <option value="02">February </option>
-                            <option value="03">March</option>
-                            <option value="04">April</option>
-                            <option value="05">May</option>
-                            <option value="06">June</option>
-                            <option value="07">July</option>
-                            <option value="08">August</option>
-                            <option value="09">September</option>
-                            <option value="10">October</option>
-                            <option value="11">November</option>
-                            <option value="12">December</option>
-                        </select>
-                        <select id="year">
-                            <option value="" >--</option>
-                            <option value="16"> 2016</option>
-                            <option value="17"> 2017</option>
-                            <option value="18"> 2018</option>
-                            <option value="19"> 2019</option>
-                            <option value="20"> 2020</option>
-                            <option value="21"> 2021</option>
-                        </select>
+            <form class="donation-web-form">
+                <div class="name">
+                    <div class="form-element">
+                        <input class="first-name" type="text" required="">
+                        <label>First Name</label>
                     </div>
-
-                    <div class="inputwrap">
-                            <label id="cvv">Security Code</label><br>
-                            <input type="text" placeholder="CVC" id="cvv">
+                    <div class="form-element">
+                        <input class="last-name" type="text" required="">
+                        <label>Last Name</label>
                     </div>
-
-         </div>
-         <div class="confirm-statement">
-                <p>Click the button to confirm your donation of $10, recurring monthly.</p>
-        
-            </div>
-            <div class="process-payment">
-                <p class="payment">Process Payment</p>
-            </div>
-            <div>
-                    <a href="#" class="go-back"> Go back</a>
                 </div>
-    </form>
+
+                <div class="form-element">
+                    <input class="street-address" type="text" required="">
+                    <label>Street Address</label>
+                </div>
+                <div class="address">
+                    <div class="form-element">
+                        <input class="city" type="text" required="">
+                        <label>City</label>
+                    </div>
+
+                    <select class="state" name="state" placeholder="state">
+                        <label>State</label>
+                        <option value="">-Select State</option>
+                        <option value="Andaman  Nicobar Islands">Andaman and Nicobar Islands</option>
+                        <option value="Andhra Pradesh">Andhra Pradesh</option>
+                        <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                        <option value="Assam">Assam</option>
+                        <option value="Bihar">Bihar</option>
+                        <option value="Chandigarh">Chandigarh</option>
+                        <option value="Chhattisgarh">Chhattisgarh</option>
+                        <option value="Dadra and Nagar Haveli">Dadra and Nagar Haveli</option>
+                        <option value="Daman and Diu">Daman and Diu</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Goa">Goa</option>
+                        <option value="Gujarat">Gujarat</option>
+                        <option value="Haryana">Haryana</option>
+                        <option value="Himachal Pradesh">Himachal Pradesh</option>
+                        <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                        <option value="Jharkhand">Jharkhand</option>
+                        <option value="Karnataka">Karnataka</option>
+                        <option value="Kerala">Kerala</option>
+                        <option value="Lakshadweep">Lakshadweep</option>
+                        <option value="Madhya Pradesh">Madhya Pradesh</option>
+                        <option value="Maharashtra">Maharashtra</option>
+                        <option value="Manipur">Manipur</option>
+                        <option value="Meghalaya">Meghalaya</option>
+                        <option value="Mizoram">Mizoram</option>
+                        <option value="Nagaland">Nagaland</option>
+                        <option value="Orissa">Orissa</option>
+                        <option value="Pondicherry">Pondicherry</option>
+                        <option value="Punjab">Punjab</option>
+                        <option value="Rajasthan">Rajasthan</option>
+                        <option value="Sikkim">Sikkim</option>
+                        <option value="Tamil Nadu">Tamil Nadu</option>
+                        <option value="Tripura">Tripura</option>
+                        <option value="Uttaranchal">Uttaranchal</option>
+                        <option value="Uttar Pradesh">Uttar Pradesh</option>
+                        <option value="West Bengal">West Bengal</option>
+                    </select>
+                    <div class="form-element">
+                        <input class="zip-code" type="number" required="">
+                        <label>Zip Code</label>
+                    </div>
+                </div>
+
+
+                <div class="form-element">
+                    <input class="email" type="email" required="">
+                    <label>E-mail</label>
+                </div>
+
+                <h2 class="payment-information form-text">Payment information</h2>
+                <div class="form-element">
+                    <input class="credit-card-number" type="number" required="">
+                    <label>Credit Card Number</label>
+                </div>
+
+                <div class="card-details">
+                    <div class="form-element">
+                        <input class="expiration-month" type="number" required="">
+                        <label>MM</label>
+                    </div>
+                    <div class="form-element">
+                        <input class="expiration-year" type="number" required="">
+                        <label>YYYY</label>
+                    </div>
+                    <div class="form-element">
+                        <input class="security-code" type="number" required="">
+                        <label>CVC</label>
+                    </div>
+
+                </div>
+
+
+                <h2 class="click-on-text form-text">Click the button to confirm your donation of $10, recurring monthly.</h2>
+                <div class="payment-confirmation">
+                    <button type="button">Process Payment</button>
+                    <a class="go-back" href="#">Go back</a>
+                </div>
+            </form>
+        </div>
     </section>
-    
-    
+    <footer>
+            <div class="footer-title">
+                <h2>The Green Trees Initiative</h2>
+              </div>
+              <div class="contact footer-nav">
+                <h3>CONTACT US</h3>
+                <hr>
+                <p>123 Anywhere St.<br/> Cityname, NY 11206<br/> (123) 456-7890<br/> contact@npo.org</p>
+              </div>
 
-
-
-<footer>
-    <div class="footer-content">
-            <p class="green-tree-initiative"> The Green Trees Initiative</p>
-    </div>
-    <div class="footer-content">
-        <p  class="footer-heading">CONTACT US</p>
-        <p class="long-contact">123 Anywhere St. Cityname, NY 11206 (123) 456-7890 contact@npo.org</p>
-    </div>
-<div class="footer-content">
-    <ul class="footer-heading">FOLLOW US
-            <li><a href="#"> Facebook</a></li>
-            <li><a href="#">  Twitter </a></li>
-            <li><a href="#">Instagram </a></li>
-            <li><a href="#"> Medium</a></li>
-        </ul>
-        
-</div>
-<div class="footer-content">
-        <ul class="footer-heading">LEARN MORE 
-                <li><a href="#"> The issue  </a></li>
-                <li><a href="#">  How we help </a></li>
-                <li><a href="#"> Get involved</a></li>
-                <li><a href="#"> Latest news</a></li>
-            </ul>
-</div>
-<div class="climate-hash">
-       <p> #stop climate change</p>
-</div>
-    
-    </footer>
-</body>
+              <div class="learn footer-nav">
+                <h3>LINKS</h3>
+                <hr>
+                <p>The issue<br> How we help<br> Get involved <br>Latest news</p>
+              </div>
+              <div class="follow footer-nav">
+                <h3>FOLLOW US</h3>
+                <hr>
+                <p>Facebook<br/> Twitter<br/> Instagram<br/> Medium</p>
+              </div>
+              <div class="footer-caption">
+                <h1>#stop<br/> climate<br/> change</h1>
+              </div>
+        </footer>
+        </body>
+        </html>
