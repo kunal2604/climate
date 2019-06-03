@@ -104,12 +104,16 @@
 
     <!-- SECTION-4 STARTS -->
     <section id="section-4">
-        <h1 class="flood-style" id="section-4-heading">Climate <br>
-            change Is a <br>
-            hunger <br>
-            issue.
-        </h1>
-        <button class="button-type1">Take action today</button> <!-- changeeeeeeeeeeeeeeeeeeeee-->
+        <div class="section-4-decorator">
+            <h1 class="flood-style" id="section-4-heading">Climate <br>
+                change Is a <br>
+                hunger <br>
+                issue.
+            </h1>
+            <button id="section-4-button" class="button-type1">Take action today</button>
+        </div>
+
+        <!-- changeeeeeeeeeeeeeeeeeeeee-->
         <article id="did-you-know-article">
             <div class="did-you-know-divs">
                 <p id="did-you-know-heading" class="small-heading">DID YOU KNOW?</p>
@@ -143,8 +147,14 @@
 
     <!-- SECTION-5 STARTS -->
     <section id="section-5">
-        <p id="section-5-heading" class="small-heading">STORIES</p>
-        <img src="assets/home/lady-baby.png" alt="">
+        
+        <div class="section-5-image">
+            <img src="assets/home/lady-baby.png" class="lady-baby">
+            <div class="section-5-stories">
+                    <p id="section-5-heading" class="small-heading">STORIES</p>
+            </div>
+        </div>
+        
         <div class="user-story-div">
             <p id="user-stories-content">“I am a person who was helped by this organization. Before they gave me
                 assistance, I was
@@ -157,25 +167,25 @@
     <section id="things-to-do">
         <p class="flood-style">LET’S Take action now to save the future.</p>
         <div class="event">
-            <p class="event-head fourteen-font-size">EVENT</p>
-            <img class="event-space" src="assets/home/tree-planting.png" alt="">
+            <p class="small-heading section-5-heading">EVENT</p>
+            <img src="assets/home/tree-planting.png" class="event-image">
             <h2 class="event-space">Earth Day 2018 community tree planting event</h2>
-            <p class="event-space fourteen-font-size">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mi
+            <p class="event-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mi
                 felis, auctor
                 vitae vestibulum vel, consequat eu dolor. Nam pellentesque euismod laoreet. Aliquam sed nisl porttitor
                 nisl laoreet semper nec iaculis nibh. Curabitur in tortor lorem.</p>
-            <button>Read more</button>
+            <button class="event-button1">Read more</button>
         </div>
 
         <div class="event">
-            <p class="event-head" id="event-news">LATEST NEWS</p>
-            <img src="assets/home/tree-planting.png" class="event-space" alt="">
-            <h2 class="event-space">Earth Day 2018 community tree planting event</h2>
-            <p class="event-space fourteen-font-size">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mi
+            <p class="small-heading section-5-heading2">LATEST NEWS</p>
+            <img src="assets/home/tree-planting.png" class="event-image2">
+            <h2 class="event-space2">Earth Day 2018 community tree planting event</h2>
+            <p class="event-description2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mi
                 felis, auctor
                 vitae vestibulum vel, consequat eu dolor. Nam pellentesque euismod laoreet. Aliquam sed nisl porttitor
                 nisl laoreet semper nec iaculis nibh. Curabitur in tortor lorem.</p>
-            <button class="event-space eighteen-font-size">Read more</button>
+            <button class="event-button2">Read more</button>
         </div>
     </section>
 
@@ -184,7 +194,7 @@
         <input type="email" name="" placeholder="Enter your email address " id="">
         <button class="sixteen-font-size">Subscribe</button>
     </section>
-
+    <!-- 
     <footer id="foot">
         <div id="title">
             <h1 class="eighteen-font-size">The Green</h1>
@@ -215,12 +225,37 @@
             change
         </aside>
 
-        <!-- <aside><p class="flood-style">#stop <br>
+    </footer> -->
+    <!-- <aside><p class="flood-style">#stop <br>
             climate <br>
             change</p>
         </aside> -->
 
+
+    <footer>
+        <div class="footer-title">
+            <h2>The Green Trees Initiative</h2>
+        </div>
+        <div class="contact footer-nav">
+            <h3>CONTACT US</h3>
+            <hr>
+            <p>123 Anywhere St.<br /> Cityname, NY 11206<br /> (123) 456-7890<br /> contact@npo.org</p>
+        </div>
+        <div class="learn footer-nav">
+            <h3>LINKS</h3>
+            <hr>
+            <p>The issue<br> How we help<br> Get involved <br>Latest news</p>
+        </div>
+        <div class="follow footer-nav">
+            <h3>FOLLOW US</h3>
+            <hr>
+            <p>Facebook<br /> Twitter<br /> Instagram<br /> Medium</p>
+        </div>
+        <div class="footer-caption">
+            <h1>#stop<br /> climate<br /> change</h1>
+        </div>
     </footer>
+
 </body>
 
 </html>
