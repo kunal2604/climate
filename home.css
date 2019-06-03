@@ -802,44 +802,20 @@ header {
     .event-image{
         grid-column: 1;
     }
-    .event-space{
+    .event-image2{
         grid-column: 2;
     }
 
-    .event-description {
-        grid-column: 2;
-    }
-
-    .event-button1{
-        grid-column: 2;
+    .group-items2{
+        grid-row:1;
     }
     .section-5-heading{
         grid-column: 2;
     }
 
-    .event-image2{
-        grid-column: 2;
-
-    }
-    .event-space2{
-        grid-column: 1;
-        grid-row: 2;
-    }
-
-    .event-description2 {
-        grid-column: 1;
-       
-    }
-
-    .event-button2 {
-        grid-column: 1;
-      
-    }
     .section-5-heading2{
-        grid-column: 1;
+        grid-row:1;
     }
-
-
 }
 
 /*
