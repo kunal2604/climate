@@ -15,19 +15,6 @@ a {
     color: #354463;
 }
 
-/* button {
-    height: auto;
-    font-family: Helvetica;
-    color: #354463;
-} */
-
-/* button {
-    line-height: 2;
-    background-color: #C1F7D5;
-    border-radius: 2em;
-    border-style: none;  
-} */
-
 hr {
     display: none;
 }
@@ -100,7 +87,7 @@ header {
 /* SECTION-1 */
 .section-1 {
     background-image: url(assets/home/annie-spratt-mobile.jpeg);
-    background-size: 248% auto;
+    background-size: 248%;
     background-position-x: 40%;
     background-position-y: 94%;
     position: relative;
@@ -111,7 +98,7 @@ header {
     font-family: 'flood';
     margin-top: 1%;
     margin-left: 8%;
-    margin-bottom: 35%;
+    margin-bottom: 20%;
     font-size: 11.73vw;
     color: white;
     line-height: 1;
@@ -129,7 +116,7 @@ header {
     background-color: white;
     position: relative;
     height: 45%;
-    padding: 2% 3% 2% 3%;
+    padding: 2% 3% 5% 3%;
     margin: 0% 8% 0% 8%;
     display: flex;
     flex-direction: column;
@@ -149,8 +136,8 @@ header {
 }
 
 .small-heading {
-    text-align:center;
-    width:35vw;
+    text-align: center;
+    width: 35vw;
     font-size: 3.73vw;
     padding: 3% 2%;
     position: absolute;
@@ -171,7 +158,7 @@ header {
     display: flex;
     justify-content: center;
     position: relative;
-    padding: 5% 6% 2% 2%;
+    padding: 5% 6% 2% 6%;
 }
 
 #take-action {
@@ -218,13 +205,19 @@ header {
     position: relative;
 }
 
-#section-3>p {
-    background-color: white;
-    text-align: center;
-    padding: 1% 5%;
+#what-we-do-header {
     color: #354463;
+    background-color: white;
     top: 1%;
 }
+
+/* 
+#section-3>p {
+    text-align: center;
+    padding: 1% 5%;
+    
+    top: 1%;
+} */
 
 #section-3>blockquote {
     width: 95%;
@@ -232,7 +225,7 @@ header {
     text-align: center;
     font-size: 5.86vw;
     padding: 10% 5%;
-    margin: 0%;
+    margin: 10% 5% 0% 5%;
 }
 
 .mission {
@@ -261,14 +254,26 @@ header {
     font-size: 3.73vw;
 }
 
-#mission-button {
+#mission-button1 {
+    position: absolute;
+    left: 25%;
+    bottom: 5%;
+}
+
+#mission-button2 {
+    position: absolute;
+    left: 25%;
+    bottom: 5%;
+}
+
+#mission-button3 {
     position: absolute;
     left: 25%;
     bottom: 5%;
 }
 
 .button-type1 {
-    height:10%;
+    height: 10%;
     width: 50%;
     font-size: 4.26vw;
     font-weight: bold;
@@ -283,9 +288,9 @@ header {
 #section-4 {
     background-image: url(assets/home/did-you-know-background-mobile.jpg);
     padding: 5% 10% 5% 10%;
-    background-repeat: no-repeat;
-    background-size: 550% auto;
-    background-position-x: 46%;
+    background-size: 550%;
+    background-position-x: 47%;
+    background-position-y: 100%;
 }
 
 .section-4-decorator {
@@ -293,15 +298,13 @@ header {
     position: relative;
 }
 
-#section-4-button {
+#take-action-button {
     position: absolute;
-    height:20%;
+    height: 23%;
     /* width:60%; */
-    width:auto;
-    top:120%;
+    width: auto;
+    top: 120%;
 }
-
-#section-4-heading {}
 
 #did-you-know-heading {
     background-color: #354463;
@@ -327,20 +330,19 @@ header {
 }
 
 .did-you-know-divs {
-    padding: 7% 7% 7% 7%;
+    padding: 3% 7% 3% 7%;
     background-color: white;
     margin-top: 8%;
     display: grid;
-    grid-column-gap: 10%;
-    grid-row-gap: 0%;
+    grid-column-gap: 15%;
 }
 
-.did-you-know-divs>h2 {
+.did-you-know-h2 {
     font-size: 5.86vw;
     grid-area: 1/1/2/span 3;
 }
 
-.did-you-know-divs>p {
+.did-you-know-content {
     grid-area: 2/1/3/span 3;
 }
 
@@ -351,11 +353,18 @@ header {
 .facebook {
     background-color: #C1F7D5;
     grid-area: 1/4/2/6;
+    border-radius: 10vw;
+    height: 4vw;
+    width: 4vw;
+    margin-top: 100%;
 }
 
 .twitter {
     background-color: #C1F7D5;
     grid-area: 2/4/3/6;
+    border-radius: 10vw;
+    height: 4vw;
+    width: 4vw;
 }
 
 .optional {
@@ -373,32 +382,30 @@ header {
     position: relative;
 }
 
-.section-5-stories{
-    position:absolute;
-    top:0%;
+.section-5-stories {
+    position: absolute;
+    top: 0%;
 }
 
 #section-5-heading {
     background-color: #354463;
     color: white;
+    padding: 3% 0%;
+    top: -10%;
+    left: 25%;
 }
+
 
 .lady-baby {
     width: 100%;
 }
 
 
-
-.section-5-heading {
-    background-color: white;
-    color: #354463;
-    padding: 4% 16%;
-    top: -5%;
-}
-
 #story-read-more {
     position: absolute;
     top: 97%;
+    width: 40%;
+    height: 6%;
 }
 
 .user-story-div {
@@ -424,15 +431,15 @@ header {
     display: none;
 }
 
-.section-5-image{
-    position:relative;
+.section-5-image {
+    position: relative;
 }
 
-#button,
+/* #button,
 .event>button {
     padding: 1% 15%;
     font-weight: bold;
-}
+} */
 
 /**************************Things to do*********************************/
 
@@ -440,25 +447,37 @@ header {
     background-color: #354463;
     text-align: center;
     color: white;
-    padding-bottom: 8%;
+    padding: 10% 5% 10% 5%;
+    margin-top: 12%;
 }
 
-#things-to-do>p {
-    font-size: 2.5em;
+#things-to-do-starter {
     text-transform: uppercase;
-    padding: 10% 2% 5% 2%;
+    padding: 5% 2% 5% 2%;
 }
 
 .event {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 25%;
+    margin-top: 20%;
     position: relative;
 }
 
 .event>img {
     width: 100%;
+}
+
+#event-heading {
+    color: #354463;
+    background-color: white;
+    top: -6%;
+}
+
+#latest-news-heading {
+    color: #354463;
+    background-color: white;
+    top: -6%;
 }
 
 .event-space {
@@ -557,7 +576,7 @@ header {
 @media screen and (min-width: 768px) and (max-width:1023px) {
 
     .lady-baby {
-        width: 70%;
+        width: 90%;
     }
 
 
@@ -595,7 +614,7 @@ header {
     }
 
     header {
-        padding: 4% 3% 3% 6%;
+        padding: 3% 3% 1% 6%;
         grid-column-gap: 0;
     }
 
@@ -639,26 +658,30 @@ header {
     }
 
     .section-1 {
-        /* height: 72vw;          height-fix kunal2604  */
-        background-size: 174% auto;
+        height: 58vw;
+        position: relative;
+        background-size: 174%;
         background-position-x: 15%;
         background-position-y: 100%;
     }
 
     .small-heading {
-        width: 5%;
+        width: 20vw;
         font-size: 1.82vw;
-        height: 10%;
+        height: 2vw;
     }
 
     #the-issue-header {
         left: 10%;
+        top: -10%;
     }
 
     .section-1-container {
+        width: 60%;
         top: 50%;
         height: 45%;
-        padding: 1% 10% 8% 12%;
+        padding: 1% 3% 8% 8%;
+        margin: 0% 30% 0% 13%;
         text-align: left;
     }
 
@@ -668,6 +691,7 @@ header {
     }
 
     #the-issue-text {
+        padding: 8% 0% 8% 0%;
         font-size: 4.68vw;
         font-weight: bold;
     }
@@ -681,7 +705,7 @@ header {
     /***********************SECTION 2 STARTS**************/
 
     #take-action {
-        padding: 2% 5%;
+        padding: 2% 0%;
         top: -15%;
     }
 
@@ -712,10 +736,12 @@ header {
         align-items: flex-start;
     }
 
-    #section-3>p {
+    #what-we-do-header {
         background-color: white;
         color: #354463;
         line-height: 1.2;
+        padding: 1% 0% 1% 0%;
+        margin-top: 5%;
     }
 
     .mission {
@@ -724,6 +750,28 @@ header {
         grid-column-gap: 3%;
         padding: 5% 5%;
         text-align: left;
+    }
+
+
+    #mission-button1 {
+        height: 17%;
+        width: 20%;
+        bottom: 21%;
+        left: 20%;
+    }
+
+    #mission-button2 {
+        height: 17%;
+        width: 20%;
+        bottom: 21%;
+        left: 20%;
+    }
+
+    #mission-button3 {
+        height: 17%;
+        width: 20%;
+        bottom: 21%;
+        left: 20%;
     }
 
     .mission>img {
@@ -740,12 +788,12 @@ header {
         font-size: 2.08vw;
         grid-area: 2/2/3/3;
         line-height: 1.5;
-        margin-top: -5%;
+        margin-top: -15%;
     }
 
     .button-type1 {
         font-size: 2.34vw;
-        grid-area: 2/1/3/2;
+
         width: 74%;
         height: 36%;
         position: absolute;
@@ -763,6 +811,21 @@ header {
 
     #section-4 {
         display: grid;
+        background-image: url(assets/home/did-you-know-background.png);
+        background-size: 150%;
+        background-position-x: 0%;
+        background-position-y: 0%;
+    }
+
+    #take-action-button {
+        position: absolute;
+        height: 18%;
+        width: 55%;
+        top: 120%;
+    }
+
+    #section-4-heading {
+        margin-right: 20%;
     }
 
     #section-4>h1 {
@@ -773,8 +836,13 @@ header {
         grid-area: 2/1/3/2;
     }
 
-    .did-you-know-divs>h2 {
-        font-size: 4.69vw;
+    .did-you-know-divs {
+        padding: 3% 7% 3% 7%;
+        margin-top: 5%;
+    }
+
+    .did-you-know-h2 {
+        font-size: 4.68vw;
     }
 
     #did-you-know-article {
@@ -793,6 +861,11 @@ header {
 
     /* SECTION 5 STARTS*/
 
+    #section-5-heading {
+        padding: 2% 0%;
+        top: -6%;
+        left: 10%;
+    }
 
     #user-stories-content {
         text-align: left;
@@ -810,29 +883,24 @@ header {
 
     .event-space {
         font-size: 3.65vw;
+        text-align: left;
     }
 
-    .event-space-description {
+    .event-description {
+        text-align: left;
         font-size: 2.08vw;
     }
 
     #section-5 {
-        margin-bottom: 75%;
+        margin-bottom: 45%;
     }
-
-    /* .section-5-image {
-        position: absolute;
-        bottom: 10%;
-        left: 0%;
-        width: 70%;
-    } */
 
     .user-story-div {
         position: absolute;
-        left: 7%;
+        left: 15%;
+        bottom: -10%;
         width: 70%;
-        bottom: -170%;
-        z-index: 1;
+        /* z-index: 1; */
     }
 
     /****************************** Things to do   ****************************************************/
@@ -840,10 +908,38 @@ header {
         margin-top: -18%;
     }
 
+    #things-to-do-starter {
+        text-align: left;
+        margin-left: 2%;
+        padding: 0% 2% 0% 2%;
+        margin-bottom: 0%;
+    }
+
     .event {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        margin-top: 10%;
+    }
 
+    .group-items1 {
+        padding: 10%;
+    }
+
+    .group-items2 {
+        grid-row: 1;
+        padding: 10%;
+    }
+
+    #event-heading {
+        padding: 2% 0% 2% 0%;
+        left: 10%;
+        top: -2%;
+    }
+
+    #latest-news-heading {
+        padding: 1% 0% 1% 0%;
+        left: 5%;
+        top: -2%;
     }
 
     .event-image {
@@ -854,16 +950,26 @@ header {
         grid-column: 2;
     }
 
-    .group-items2 {
-        grid-row: 1;
-    }
+    .group-items2 {}
 
-    .section-5-heading {
+    #event-heading {
         grid-column: 2;
     }
 
-    .section-5-heading2 {
+    #latest-news-heading {
         grid-row: 1;
+    }
+
+    #event-button1 {
+        width: 22%;
+        height: 10%;
+        left: 55%;
+    }
+
+    #event-button2 {
+        width: 22%;
+        height: 10%;
+        left: 5%;
     }
 
     /* SUBSCRIBE  BUTTON*/
@@ -890,15 +996,15 @@ header {
     }
 
     #story-read-more {
-        top: 285%;
-        left: 6%;
-        width: 18%;
-        height: 22%;
+        top: 116%;
+        left: 15%;
+        width: 22%;
+        height: 6%;
     }
 
 
     #subscribe {
-        padding: 6% 15% 10% 11%;
+        padding: 2% 15% 10% 11%;
         grid-row-gap: 20%;
         grid-column-gap: 5%;
 
@@ -909,7 +1015,7 @@ header {
     }
 
     #foot {
-        padding: 8% 8% 10% 8%;
+        padding: 5% 8% 7% 8%;
         display: grid;
         grid-row-gap: 5%;
         grid-column-gap: 10%;
@@ -962,18 +1068,6 @@ header {
 /*            *********************      DESKTOP MEDIA QUERY */
 @media screen and (min-width: 1024px) {
 
-    .eighteen-font-size {
-        font-size: 2.15vw;
-    }
-
-    .fourteen-font-size,
-    a {
-        font-size: 1.36vw;
-    }
-
-    .sixteen-font-size {
-        font-size: 1.56vw;
-    }
 
     .email {
         font-size: 2vw;
@@ -1011,15 +1105,15 @@ header {
     }
 
     #menu {
+        width: 50%;
         line-height: 0;
         grid-area: 1/2/2/span 2;
         display: flex;
         flex-direction: row;
-
         position: absolute;
-        left: 25%;
-        top: 7%;
-
+        left: 27%;
+        top: 8%;
+        padding: 0%;
     }
 
     #menu>li {
@@ -1053,6 +1147,10 @@ header {
         grid-template-columns: 1fr 1fr;
     }
 
+    #section-1-heading {
+        grid-area: 1/2/2/3;
+    }
+
     .flood-style {
         font-size: 5.73vw;
     }
@@ -1063,37 +1161,47 @@ header {
 
     #the-issue-header {
         left: 10%;
-        top: -31%;
+        top: -13%;
+        width: 36%;
     }
 
     .section-1-container {
-        top: 27%;
-        width: 73%;
-        padding: 5% 10%;
+        top: 31%;
+        width: 72%;
+        padding: 8% 0%;
         text-align: left;
+        margin-left: 25%;
     }
 
 
     #section-1-heading {
         position: absolute;
         top: 31%;
-        right: 20%;
+        right: 50%;
         font-size: 4vw;
+        line-height: 1.2;
     }
 
     #the-issue-text {
         font-size: 2.15vw;
         font-weight: bold;
+        line-height: 1.3;
+        padding: 0% 4% 0% 4%;
     }
 
     #the-issue-read-more {
         font-size: 1.56vw;
         align-self: flex-start;
+        margin-left: 5%;
     }
 
     /*SECTION 1 ENDS */
 
     /* SECTION 2 STARTS */
+
+    #section-2 {
+        padding: 2% 3% 2% 3%;
+    }
 
     #actions {
         display: flex;
@@ -1105,7 +1213,10 @@ header {
         background-color: #354463;
         color: white;
         text-align: center;
-        top: -12%;
+        top: -18%;
+        width: 11%;
+        height: 0%;
+        padding: 2% 2% 3% 2%;
     }
 
 
@@ -1127,10 +1238,6 @@ header {
         justify-content: space-between;
     }
 
-    #section-3>p {
-        top: 6%;
-    }
-
     #section-3>blockquote {
         /* background-color:red; */
         margin: 0%;
@@ -1139,10 +1246,16 @@ header {
         padding: 5% 0% 12% 0%;
     }
 
+    #what-we-do-header {
+        top: 6%;
+        width: 10%;
+        padding: 1% 2% 1% 2%;
+    }
+
     .mission {
         width: 20%;
         display: flex;
-        padding: 4%;
+        padding: 4% 4% 8% 4%;
         margin-top: 0;
         flex-flow: column;
         line-height: 1.2;
@@ -1169,6 +1282,27 @@ header {
         width: 23vw;
     }
 
+    #mission-button1 {
+        left: 13%;
+        bottom: 6%;
+        width: 46%;
+        height: 7%;
+    }
+
+    #mission-button2 {
+        left: 13%;
+        bottom: 6%;
+        width: 46%;
+        height: 7%;
+    }
+
+    #mission-button3 {
+        left: 13%;
+        bottom: 6%;
+        width: 46%;
+        height: 7%;
+    }
+
     .button-type1 {
         font-size: 1.76vw;
         width: 80%;
@@ -1177,12 +1311,49 @@ header {
     /*section -3 ends*/
 
     /************* SECTION - 4 *************/
-    .did-you-know-divs>h2 {
+    #section-4 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-image: url(assets/home/did-you-know-background.png);
+        background-size: 223%;
+        background-position-x: 69%;
+        background-position-y: 0%;
+        padding: 5% 10% 5% 10%;
+        
+    }
+
+    #take-action-button {
+        left: 7%;
+        height: 6%;
+        width: 40%;
+        top: 35%;
+    }
+
+    .did-you-know-divs {
+        padding: 3%;
+        width: 100%;
+        margin-top: 3%;
+    }
+
+    #did-you-know-article {
+        position: relative;
+        margin: 0% 0% 0% 6%;
+    }
+
+    #did-you-know-heading {
+        top: -2%;
+        left: 6%;
+        width: 30%;
+    }
+
+    .did-you-know-h2 {
         font-size: 4.29vw;
+        margin-bottom: 0%;
     }
 
     .did-you-know-content {
         font-size: 1.95vw;
+        padding: 0% 0% 0% 2%;
     }
 
     .optional {
@@ -1191,6 +1362,27 @@ header {
 
 
     /************************ SECTION 5 STARTS ********************************/
+    #section-5-heading {
+        padding: 2% 0%;
+        top: -7%;
+        left: 47%;
+        width: 19%;
+        height: 4%;
+    }
+
+    .lady-baby {
+        width: 80%;
+        margin-left: 40%
+    }
+
+    .user-story-div {
+        padding: 1% 4% 1% 4%;
+        width: 45%;
+        margin-top: -42%;
+        margin-left: -48%;
+        z-index: 1;
+    }
+
     #user-stories-content {
         text-align: left;
         font-size: 2.73vw;
@@ -1205,41 +1397,121 @@ header {
         font-size: 1.36vw;
     }
 
+    #story-read-more {
+        top: 90%;
+        width: 16%;
+        height: 8%;
+        left: 6%;
+    }
+
+    /*   THINGS TO DO*/
+
+    #things-to-do-starter {
+        width: 75%;
+        padding: 0% 18% 0% 0%;
+        text-align: left;
+        margin-bottom: 0%;
+    }
+
+    .event {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 5%;
+    }
+
+    .group-items1 {
+        padding: 10%;
+    }
+
+    .group-items2 {
+        grid-row: 1;
+        padding: 10%;
+    }
+
     .event-space {
         font-size: 4.29vw;
+        text-align: left;
     }
 
-    .event-space-description {
+    .event-description {
+        line-height: 1.2;
         font-size: 1.95vw;
+        text-align: left;
     }
 
+    #event-button1 {
+        position: absolute;
+        width: 14%;
+        height: 8%;
+        left: 55%;
+    }
+
+    #event-button2 {
+        position: absolute;
+        width: 14%;
+        height: 8%;
+        left: 5%;
+    }
+
+    #event-heading {
+        padding: 1% 3% 1% 3%;
+        width: 10%;
+        top: 5%;
+        left: 55%;
+    }
+
+    #latest-news-heading {
+        padding: 1% 2% 1% 2%;
+        width: 11%;
+        top: 5%;
+        left: 5%;
+    }
+
+    /* FOOTER*/
     /* SUBSCRIBE  BUTTON*/
+
+
+    #subscribe {
+        padding: 2% 8% 6% 5%;
+    }
+
     #subscribe>p {
         font-size: 2.73vw;
-        /* width:100%;
-        grid-area: 1/1/2/3;
-        margin-bottom:0%; */
+        /* grid-area:1/1/2/2; */
+        grid-area: 1/1/2/2;
+        font-weight: bold;
+        width: 115%;
     }
 
     #subscribe>input {
         font-size: 1.95vw;
-        grid-area: 2/1/3/2;
-        /* border: none;
-        border-radius: 2em;*/
+        grid-area: 1/2/2/3;
         text-align: left;
+        padding: 0% 0% 0% 0%;
+        height: 30%;
+        width: 100%;
+        margin: 18% -5% 10% 10%;
     }
 
+    #button-subscribe {
+        font-size: 1.75vw;
+        grid-area: 1/3/2/4;
+        height: 40%;
+        width: 120%;
+        margin-top: 45%;
+    }
 
-    /* FOOTER*/
     .flood-style-2 {
         font-size: 4.29vw;
     }
+
 
     #foot {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: baseline;
+        padding: 6% 8% 6% 8%;
     }
 
     #quotation {
